@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T13:05:53.660554+00:00",
+  "last_updated": "2026-11-26T13:22:54.268744+00:00",
   "versions": [
     "5.1",
     "5.0",
@@ -15,13 +15,13 @@
   "summary": {
     "5.1": {
       "total_jobs": 1149,
-      "passing_jobs": 365,
-      "failing_jobs": 754,
+      "passing_jobs": 366,
+      "failing_jobs": 753,
       "other_jobs": 30,
-      "pass_rate": 31.77,
+      "pass_rate": 31.85,
       "avg_duration_minutes": 168.9,
-      "total_runs_current": 7156,
-      "total_runs_previous": 5695,
+      "total_runs_current": 7202,
+      "total_runs_previous": 5698,
       "infrastructure_failures": 0
     },
     "5.0": {
@@ -30,64 +30,64 @@
       "failing_jobs": 692,
       "other_jobs": 34,
       "pass_rate": 34.83,
-      "avg_duration_minutes": 174.5,
-      "total_runs_current": 5385,
-      "total_runs_previous": 4141,
+      "avg_duration_minutes": 174.4,
+      "total_runs_current": 5403,
+      "total_runs_previous": 4126,
       "infrastructure_failures": 0
     },
     "4.23": {
       "total_jobs": 758,
-      "passing_jobs": 315,
-      "failing_jobs": 432,
+      "passing_jobs": 316,
+      "failing_jobs": 431,
       "other_jobs": 11,
-      "pass_rate": 41.56,
-      "avg_duration_minutes": 188.1,
-      "total_runs_current": 2557,
-      "total_runs_previous": 2514,
+      "pass_rate": 41.69,
+      "avg_duration_minutes": 188.2,
+      "total_runs_current": 2540,
+      "total_runs_previous": 2519,
       "infrastructure_failures": 0
     },
     "4.22": {
       "total_jobs": 1058,
       "passing_jobs": 387,
-      "failing_jobs": 646,
-      "other_jobs": 25,
+      "failing_jobs": 647,
+      "other_jobs": 24,
       "pass_rate": 36.58,
-      "avg_duration_minutes": 162.3,
-      "total_runs_current": 5337,
-      "total_runs_previous": 5202,
+      "avg_duration_minutes": 162.2,
+      "total_runs_current": 5359,
+      "total_runs_previous": 5204,
       "infrastructure_failures": 0
     },
     "4.21": {
       "total_jobs": 743,
-      "passing_jobs": 376,
-      "failing_jobs": 352,
+      "passing_jobs": 375,
+      "failing_jobs": 353,
       "other_jobs": 15,
-      "pass_rate": 50.61,
-      "avg_duration_minutes": 154.2,
-      "total_runs_current": 2658,
-      "total_runs_previous": 2485,
+      "pass_rate": 50.47,
+      "avg_duration_minutes": 154.1,
+      "total_runs_current": 2668,
+      "total_runs_previous": 2487,
       "infrastructure_failures": 0
     },
     "4.20": {
       "total_jobs": 559,
-      "passing_jobs": 223,
+      "passing_jobs": 224,
       "failing_jobs": 304,
-      "other_jobs": 32,
-      "pass_rate": 39.89,
-      "avg_duration_minutes": 170.1,
-      "total_runs_current": 2271,
+      "other_jobs": 31,
+      "pass_rate": 40.07,
+      "avg_duration_minutes": 169.9,
+      "total_runs_current": 2276,
       "total_runs_previous": 2014,
       "infrastructure_failures": 0
     },
     "4.19": {
       "total_jobs": 465,
-      "passing_jobs": 213,
+      "passing_jobs": 215,
       "failing_jobs": 220,
-      "other_jobs": 32,
-      "pass_rate": 45.81,
-      "avg_duration_minutes": 155.2,
-      "total_runs_current": 1317,
-      "total_runs_previous": 1036,
+      "other_jobs": 30,
+      "pass_rate": 46.24,
+      "avg_duration_minutes": 155.1,
+      "total_runs_current": 1322,
+      "total_runs_previous": 1034,
       "infrastructure_failures": 0
     },
     "4.18": {
@@ -97,7 +97,7 @@
       "other_jobs": 16,
       "pass_rate": 49.78,
       "avg_duration_minutes": 140.3,
-      "total_runs_current": 941,
+      "total_runs_current": 945,
       "total_runs_previous": 824,
       "infrastructure_failures": 0
     },
@@ -108,7 +108,7 @@
       "other_jobs": 5,
       "pass_rate": 37.38,
       "avg_duration_minutes": 128.0,
-      "total_runs_current": 676,
+      "total_runs_current": 677,
       "total_runs_previous": 537,
       "infrastructure_failures": 0
     },
@@ -120,7 +120,7 @@
       "pass_rate": 36.49,
       "avg_duration_minutes": 158.3,
       "total_runs_current": 423,
-      "total_runs_previous": 348,
+      "total_runs_previous": 347,
       "infrastructure_failures": 0
     }
   }

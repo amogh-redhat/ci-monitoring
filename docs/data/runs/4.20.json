@@ -1,6 +1,88 @@
 {
-  "total_failing_runs": 30658,
+  "total_failing_runs": 30662,
   "runs": [
+    {
+      "id": "2125922924224319488",
+      "job": "periodic-ci-openshift-operator-framework-operator-controller-release-4.20-periodics-default-catalog-consistency",
+      "brief_name": "periodic-ci-openshift-operator-framework-operator-controller-release-4.20-periodics-default-catalog-consistency",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T12:00:42Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-operator-framework-operator-controller-release-4.20-periodics-default-catalog-consistency/2125922924224319488"
+    },
+    {
+      "id": "2125922850752696320",
+      "job": "periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aws-upgrade",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aws-upgrade",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T12:00:37Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step hypershift-aws-run-e2e-external",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aws-upgrade/2125922850752696320"
+    },
+    {
+      "id": "2125917502788603904",
+      "job": "periodic-ci-openshift-release-main-nightly-4.20-fips-payload-scan",
+      "brief_name": "fips-payload-scan",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T11:40:04Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-fips-payload-scan/2125917502788603904"
+    },
+    {
+      "id": "2125917498627854336",
+      "job": "periodic-ci-openshift-release-main-nightly-4.20-e2e-aws-driver-toolkit",
+      "brief_name": "e2e-aws-driver-toolkit",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T11:40:03Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-aws-driver-toolkit/2125917498627854336"
+    },
+    {
+      "id": "2125917493221396480",
+      "job": "periodic-ci-openshift-microshift-release-4.20-periodics-e2e-aws-ovn-ocp-conformance-serial",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.20-periodics-e2e-aws-ovn-ocp-conformance-serial",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T11:40:02Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.20-periodics-e2e-aws-ovn-ocp-conformance-serial/2125917493221396480"
+    },
+    {
+      "id": "2125912555313434624",
+      "job": "periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ovn-legacy-infra",
+      "brief_name": "e2e-vsphere-ovn-legacy-infra",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T11:20:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ovn-legacy-infra/2125912555313434624"
+    },
     {
       "id": "2125897455789674496",
       "job": "periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ovn-upi-legacy-infra",
@@ -13,6 +95,19 @@
       "test_failures": 0,
       "failed_test_names": [],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ovn-upi-legacy-infra/2125897455789674496"
+    },
+    {
+      "id": "2125896449538396160",
+      "job": "periodic-ci-openshift-cluster-authentication-operator-release-4.20-periodics-e2e-vsphere-external-oidc-rollback-techpreview",
+      "brief_name": "periodic-ci-openshift-cluster-authentication-operator-release-4.20-periodics-e2e-vsphere-external-oidc-rollback-techpreview",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T10:16:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-authentication-operator-release-4.20-periodics-e2e-vsphere-external-oidc-rollback-techpreview/2125896449538396160"
     },
     {
       "id": "2125892596818513920",
@@ -239,11 +334,11 @@
       "test_failures": 6,
       "failed_test_names": [
         "[sig-storage][Feature:CSIInlineVolumeAdmission][Serial] restricted namespace should deny pods with inline volumes when the driver uses the privileged label [Suite:openshift/conformance/serial]",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
-        "Run multi-stage step openshift-e2e-test",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-storage-operator",
         "[sig-sippy] openshift-tests should work",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-storage-operator"
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ovn-serial-runc/2125823970421772288"
     },
@@ -606,14 +701,14 @@
       "known_failure": false,
       "test_failures": 8,
       "failed_test_names": [
-        "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
-        "[bz-Management Console] clusteroperator/console should not change condition/Available",
-        "[sig-node] node-lifecycle detects unexpected not ready node",
-        "[bz-Routing] clusteroperator/ingress should not change condition/Available",
-        "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/new should be available throughout the test",
         "[sig-node] node-lifecycle detects unreachable state on node",
+        "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
+        "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
         "[bz-DNS] clusteroperator/dns should not change condition/Available",
-        "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test"
+        "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/new should be available throughout the test",
+        "[bz-Routing] clusteroperator/ingress should not change condition/Available",
+        "[sig-node] node-lifecycle detects unexpected not ready node",
+        "[bz-Management Console] clusteroperator/console should not change condition/Available"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-azure-kubevirt-ovn/2125801933728911360"
     },
@@ -680,8 +775,8 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "Run multi-stage step openshift-e2e-test",
         "[sig-cluster-lifecycle][OCPFeatureGate:VSphereMultiVCenterDay2][platform:vsphere] vSphere failure domain ValidatingAdmissionPolicies should block removing a failure domain referenced by a MachineSet [apigroup:machine.openshift.io][Suite:openshift/conformance/serial]",
+        "Run multi-stage step openshift-e2e-test",
         "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ovn-zones-techpreview-serial-1of2/2125798089724792832"
@@ -866,8 +961,8 @@
       "known_failure": false,
       "test_failures": 2,
       "failed_test_names": [
-        "Run multi-stage step ibm-fusion-access-install-fusion-access-operator",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step ibm-fusion-access-install-fusion-access-operator"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-RedHatQE-interop-testing-master-ibm-fusion-access-operator-ocp4.20-lp-interop-cr-ibm-fusion-access-operator-cr-ocp420/2125786724696068096"
     },
@@ -882,19 +977,19 @@
       "known_failure": false,
       "test_failures": 13,
       "failed_test_names": [
-        "[sig-arch] events should not repeat pathologically for ns/openshift-oauth-apiserver",
-        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
-        "[bz-OLM] clusteroperator/operator-lifecycle-manager-packageserver should not change condition/Available",
         "[sig-network] there should be nearly zero single second disruptions for kube-api-http2-internal-lb-new-connections",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-machine-api",
-        "[bz-etcd][invariant] alert/etcdMembersDown should not be at or above info",
-        "[bz-apiserver-auth] clusteroperator/authentication should not change condition/Available",
-        "Run multi-stage step openshift-e2e-test",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-etcd",
-        "[bz-etcd][invariant] alert/etcdInsufficientMembers should not be at or above info",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-apiserver",
+        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-oauth-apiserver",
+        "[sig-sippy] openshift-tests should work",
         "[bz-Cloud Compute] clusteroperator/control-plane-machine-set should not change condition/Degraded",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-arch] events should not repeat pathologically for ns/openshift-apiserver",
+        "[bz-etcd][invariant] alert/etcdInsufficientMembers should not be at or above info",
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-etcd",
+        "Run multi-stage step openshift-e2e-test",
+        "[bz-apiserver-auth] clusteroperator/authentication should not change condition/Available",
+        "[bz-etcd][invariant] alert/etcdMembersDown should not be at or above info",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-machine-api",
+        "[bz-OLM] clusteroperator/operator-lifecycle-manager-packageserver should not change condition/Available"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-shiftstack-ci-release-4.20-e2e-openstack-ovn-etcd-scaling/2125785466534891520"
     },
@@ -922,12 +1017,12 @@
       "known_failure": false,
       "test_failures": 6,
       "failed_test_names": [
-        "TestNodePool/HostedCluster0/Teardown",
-        "[sig-sippy] openshift-tests should work",
         "TestNodePool",
-        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
         "TestNodePool/HostedCluster0",
-        "Run multi-stage step hypershift-azure-run-e2e"
+        "Run multi-stage step hypershift-azure-run-e2e",
+        "TestNodePool/HostedCluster0/Teardown",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aks/2125775831551709184"
     },
@@ -994,10 +1089,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work",
         "Run multi-stage step upi-libvirt-cleanup-pre",
-        "Run multi-stage step upi-libvirt-cleanup-post"
+        "Run multi-stage step upi-libvirt-cleanup-post",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-upgrade-from-nightly-4.19-ocp-ovn-remote-s2s-libvirt-multi-p-p/2125771858186866688"
     },
@@ -1012,9 +1107,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-api-machinery][Feature:APIServer] API LBs follow /readyz of kube-apiserver and stop sending requests before server shutdowns for external clients",
+        "[sig-sippy] openshift-tests should work",
         "Run multi-stage step openshift-e2e-libvirt-test",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-api-machinery][Feature:APIServer] API LBs follow /readyz of kube-apiserver and stop sending requests before server shutdowns for external clients"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-upgrade-from-nightly-4.19-ocp-ovn-remote-libvirt-multi-z-z/2125771856010022912"
     },
@@ -1096,9 +1191,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-arch] events should not repeat pathologically for ns/openshift-ingress",
+        "Run multi-stage step single-node-e2e-test",
         "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step single-node-e2e-test"
+        "[sig-arch] events should not repeat pathologically for ns/openshift-ingress"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-aws-ovn-single-node-techpreview/2125765836894375936"
     },
@@ -1126,10 +1221,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
         "Run multi-stage step upi-libvirt-cleanup-pre",
         "Run multi-stage step upi-libvirt-cleanup-post",
-        "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-ovn-remote-s2s-libvirt-multi-p-p/2125764123080790016"
     },
@@ -1170,10 +1265,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "[sig-sippy] infrastructure should work",
-        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+        "Run multi-stage step conformance-tests",
         "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step conformance-tests"
+        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aws-ovn-conformance-serial/2125756909070848000"
     },
@@ -1240,15 +1335,15 @@
       "known_failure": false,
       "test_failures": 9,
       "failed_test_names": [
+        "TestCreateCluster",
         "Run multi-stage step hypershift-azure-run-e2e",
         "TestNodePool",
         "TestNodePool/HostedCluster0/Teardown",
-        "TestCreateCluster",
-        "TestNodePool/HostedCluster0",
-        "TestCreateCluster/Main/[Feature:AzureMachineDiagnostics]_VerifyAzureMachineDiagnostics",
-        "[sig-sippy] infrastructure should work",
+        "TestCreateCluster/Main",
         "[sig-sippy] openshift-tests should work",
-        "TestCreateCluster/Main"
+        "[sig-sippy] infrastructure should work",
+        "TestCreateCluster/Main/[Feature:AzureMachineDiagnostics]_VerifyAzureMachineDiagnostics",
+        "TestNodePool/HostedCluster0"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aks/2125750949191356416"
     },
@@ -1263,15 +1358,15 @@
       "known_failure": false,
       "test_failures": 9,
       "failed_test_names": [
-        "TestNodePool/HostedCluster0",
-        "[sig-sippy] openshift-tests should work",
-        "TestCreateClusterHABreakGlassCredentials",
         "TestCreateClusterHABreakGlassCredentials/Teardown",
-        "TestNodePool",
-        "TestNodePool/HostedCluster0/Main/TestNodePoolMajorVersionUpgrade",
-        "TestNodePool/HostedCluster0/Main",
+        "TestNodePool/HostedCluster0",
+        "[sig-sippy] infrastructure should work",
         "Run multi-stage step hypershift-aws-run-e2e-nested",
-        "[sig-sippy] infrastructure should work"
+        "TestNodePool/HostedCluster0/Main",
+        "TestNodePool/HostedCluster0/Main/TestNodePoolMajorVersionUpgrade",
+        "TestNodePool",
+        "TestCreateClusterHABreakGlassCredentials",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aws-ovn/2125750949161996288"
     },
@@ -1312,9 +1407,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "[sig-api-machinery] disruption/oauth-api apiserver/oauth-apiserver connection/reused should be available throughout the test",
         "Run multi-stage step openshift-e2e-test",
-        "[sig-api-machinery] disruption/oauth-api apiserver/oauth-apiserver connection/reused should be available throughout the test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.20-upgrade-from-stable-4.19-e2e-aws-ovn-upgrade/2125750949065527296"
     },
@@ -1329,8 +1424,8 @@
       "known_failure": false,
       "test_failures": 2,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step install-operators"
+        "Run multi-stage step install-operators",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-rhobs-observability-operator-main-amd64-ocp-4.20-azure-coo-stage/2125749067035185152"
     },
@@ -1345,10 +1440,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "Run multi-stage step upi-libvirt-cleanup-pre",
         "Run multi-stage step upi-libvirt-cleanup-post",
         "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work"
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step upi-libvirt-cleanup-pre"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-ovn-remote-s2s-libvirt-ppc64le/2125749033472364544"
     },
@@ -1464,9 +1559,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
         "operator conditions kube-apiserver",
-        "Run multi-stage step test",
-        "[sig-sippy] openshift-tests should work"
+        "Run multi-stage step test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.20-periodics-insights-operator-e2e-tests-periodic/2125741613647925248"
     },
@@ -1669,11 +1764,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "install should succeed: pre configuration",
         "install should succeed: overall",
         "[sig-sippy] infrastructure should work",
         "Run multi-stage step ipi-conf-aws-user-min-permissions",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-sippy] openshift-tests should work",
+        "install should succeed: pre configuration"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.20-e2e-aws-openshift-platform-compliance-weekly/2125737651058249728"
     },
@@ -1688,11 +1783,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "install should succeed: pre configuration",
-        "[sig-sippy] openshift-tests should work",
         "install should succeed: overall",
-        "Run multi-stage step ipi-conf-aws-user-min-permissions",
-        "[sig-sippy] infrastructure should work"
+        "[sig-sippy] openshift-tests should work",
+        "install should succeed: pre configuration",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step ipi-conf-aws-user-min-permissions"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.20-e2e-aws-openshift-node-compliance-weekly/2125737651016306688"
     },
@@ -1824,9 +1919,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-test",
         "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.20-e2e-azure-ovn-upgrade/2125736009130840064"
     },
@@ -1971,10 +2066,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "[sig-storage] CSI Mock volume fsgroup policies CSI FSGroupPolicy [LinuxOnly] should not modify fsGroup if fsGroupPolicy=None [Suite:openshift/conformance/parallel] [Suite:k8s]",
         "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step openshift-e2e-test",
-        "[sig-storage] CSI Mock volume fsgroup policies CSI FSGroupPolicy [LinuxOnly] should not modify fsGroup if fsGroupPolicy=None [Suite:openshift/conformance/parallel] [Suite:k8s]"
+        "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "Run multi-stage step openshift-e2e-test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-azure-ovn-runc/2125731107751071744"
     },
@@ -2028,8 +2123,8 @@
       "known_failure": false,
       "test_failures": 2,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step openshift-e2e-test"
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-vsphere-ipi-ovn-runc/2125727332856500224"
     },
@@ -2083,12 +2178,12 @@
       "known_failure": false,
       "test_failures": 6,
       "failed_test_names": [
-        "[sig-arch] events should not repeat pathologically",
-        "Run multi-stage step openshift-e2e-test",
-        "[sig-sippy] openshift-tests should work",
         "[sig-instrumentation] Prometheus [apigroup:image.openshift.io] when installed on the cluster shouldn't report any alerts in firing state apart from Watchdog and AlertmanagerReceiversNotConfigured [Early][apigroup:config.openshift.io] [Skipped:Disconnected] [Suite:openshift/conformance/parallel]",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-node][apigroup:config.openshift.io] CPU Partitioning cluster infrastructure should be configured correctly [Suite:openshift/conformance/parallel]",
+        "[sig-arch] events should not repeat pathologically",
         "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers",
-        "[sig-node][apigroup:config.openshift.io] CPU Partitioning cluster infrastructure should be configured correctly [Suite:openshift/conformance/parallel]"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-osd-ccs-gcp/2125723306354020352"
     },
@@ -2170,8 +2265,8 @@
       "known_failure": false,
       "test_failures": 2,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step gather-extra"
+        "Run multi-stage step gather-extra",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-installer-e2e-aws-ovn-multi-a-a/2125716259780694016"
     },
@@ -2277,9 +2372,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-test",
         "[sig-network-edge][Feature:Idling] Idling with a single service and ReplicationController should idle the service and ReplicationController properly [Suite:openshift/conformance/parallel]",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-azure-ovn-multidisk-techpreview/2125714265636605952"
     },
@@ -2348,26 +2443,26 @@
       "known_failure": false,
       "test_failures": 20,
       "failed_test_names": [
-        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
-        "[sig-arch] events should not repeat pathologically",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-ingress",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-pod poller pod logs",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-host poller pod logs",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-service poller pod logs",
         "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-host poller pod logs",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-pod poller pod logs",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-ingress",
+        "[sig-arch] events should not repeat pathologically",
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-monitoring",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-image-registry",
+        "[sig-architecture] platform pods in ns/openshift-cluster-csi-drivers should not exit an excessive amount of times",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-host poller pod logs",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
         "[Jira:\"Network / ovn-kubernetes\"] monitor test pod-network-avalibility collection",
         "[sig-arch] events should not repeat pathologically for ns/openshift-dns",
         "[sig-arch] events should not repeat pathologically for ns/openshift-insights",
-        "[sig-sippy] openshift-tests should work",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-image-registry",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-service poller pod logs",
-        "[sig-architecture] platform pods in ns/openshift-cluster-csi-drivers should not exit an excessive amount of times",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-pod poller pod logs",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-image-registry",
         "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-cluster-csi-drivers",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-monitoring",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-image-registry",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-pod poller pod logs",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-service poller pod logs",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-service poller pod logs"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-upgrade-gcp-ovn-multi-a-a/2125712513340280832"
     },
@@ -2382,19 +2477,19 @@
       "known_failure": false,
       "test_failures": 13,
       "failed_test_names": [
-        "operator conditions machine-api",
-        "install should succeed: cluster creation",
-        "operator conditions ingress",
-        "operator conditions authentication",
-        "operator conditions network",
-        "install should succeed: overall",
         "operator conditions console",
         "operator conditions monitoring",
         "Run multi-stage step ipi-install-install-stableinitial",
         "operator conditions cluster-autoscaler",
         "[sig-sippy] infrastructure should work",
         "[sig-sippy] openshift-tests should work",
-        "operator conditions image-registry"
+        "operator conditions image-registry",
+        "operator conditions machine-api",
+        "install should succeed: overall",
+        "install should succeed: cluster creation",
+        "operator conditions ingress",
+        "operator conditions authentication",
+        "operator conditions network"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-upgrade-azure-ovn-multi-x-ax/2125712510811115520"
     },
@@ -2409,11 +2504,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "Run multi-stage step openshift-e2e-test",
-        "Run multi-stage step gather-extra",
-        "[sig-api-machinery] disruption/kube-api apiserver/kube-apiserver connection/reused should be available throughout the test",
         "[sig-sippy] openshift-tests should work",
-        "[sig-api-machinery] disruption/openshift-api apiserver/openshift-apiserver connection/reused should be available throughout the test"
+        "[sig-api-machinery] disruption/kube-api apiserver/kube-apiserver connection/reused should be available throughout the test",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-api-machinery] disruption/openshift-api apiserver/openshift-apiserver connection/reused should be available throughout the test",
+        "Run multi-stage step gather-extra"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-upgrade-aws-ovn-multi-x-x/2125712508298727424"
     },
@@ -2454,10 +2549,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "operator conditions etcd",
         "[sig-sippy] openshift-tests should work",
-        "operator conditions control-plane-machine-set",
-        "Run multi-stage step multiarch-migration-machine-type"
+        "operator conditions etcd",
+        "Run multi-stage step multiarch-migration-machine-type",
+        "operator conditions control-plane-machine-set"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-gcp-ovn-multi-x-x-to-a-x/2125712500736397312"
     },
@@ -2472,9 +2567,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
         "[sig-storage] CSI Mock volume expansion Expansion with recovery [Feature:RecoverVolumeExpansionFailure] [FeatureGate:RecoverVolumeExpansionFailure] [Beta] should allow recovery if controller expansion fails with infeasible error [Suite:openshift/conformance/parallel] [Suite:k8s]",
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-gcp-ovn-multi-a-a-to-x-a/2125712496575647744"
     },
@@ -2623,9 +2718,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
         "[sig-network] pods should successfully create sandboxes by other",
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-upgrade-from-nightly-4.19-ocp-e2e-upgrade-azure-ovn-multi-a-a/2125712006953570304"
     },
@@ -2679,9 +2774,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-test",
         "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-azure-ovn-multi-a-a/2125711997713518592"
     },
@@ -2749,114 +2844,12 @@
       "test_failures": 0,
       "failed_test_names": [],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-aws-ovn-arm64/2125711981699665920"
-    },
-    {
-      "id": "2125711729915596800",
-      "job": "periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-aws-operator-periodic",
-      "brief_name": "periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-aws-operator-periodic",
-      "cluster": "build12",
-      "timestamp": "2026-11-25T22:02:24Z",
-      "overall_result": "S",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 5,
-      "failed_test_names": [
-        "operator conditions image-registry",
-        "operator conditions storage",
-        "operator conditions node-tuning",
-        "operator conditions network",
-        "operator conditions dns"
-      ],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-aws-operator-periodic/2125711729915596800"
-    },
-    {
-      "id": "2125711499090464768",
-      "job": "periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-3of3",
-      "brief_name": "ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-3of3",
-      "cluster": "build06",
-      "timestamp": "2026-11-25T22:01:25Z",
-      "overall_result": "S",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 0,
-      "failed_test_names": [],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-3of3/2125711499090464768"
-    },
-    {
-      "id": "2125711494086660096",
-      "job": "periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-aws-ovn-techpreview-multi-a-a",
-      "brief_name": "ocp-e2e-aws-ovn-techpreview-multi-a-a",
-      "cluster": "build06",
-      "timestamp": "2026-11-25T22:01:25Z",
-      "overall_result": "S",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 1,
-      "failed_test_names": [
-        "Run multi-stage step gather-extra"
-      ],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-aws-ovn-techpreview-multi-a-a/2125711494086660096"
-    },
-    {
-      "id": "2125711478358020096",
-      "job": "periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-gcp-operator-periodic",
-      "brief_name": "periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-gcp-operator-periodic",
-      "cluster": "build08",
-      "timestamp": "2026-11-25T22:01:24Z",
-      "overall_result": "S",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 0,
-      "failed_test_names": [],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-gcp-operator-periodic/2125711478358020096"
-    },
-    {
-      "id": "2125711478169276416",
-      "job": "periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-gcp-multi-operator-periodic",
-      "brief_name": "periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-gcp-multi-operator-periodic",
-      "cluster": "build08",
-      "timestamp": "2026-11-25T22:01:24Z",
-      "overall_result": "F",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 2,
-      "failed_test_names": [
-        "Run multi-stage step ipi-conf-gcp-zones",
-        "[sig-sippy] openshift-tests should work"
-      ],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-api-actuator-pkg-release-4.20-periodics-e2e-gcp-multi-operator-periodic/2125711478169276416"
-    },
-    {
-      "id": "2125711359839571968",
-      "job": "periodic-ci-openshift-operator-framework-operator-controller-release-4.20-periodics-default-catalog-consistency",
-      "brief_name": "periodic-ci-openshift-operator-framework-operator-controller-release-4.20-periodics-default-catalog-consistency",
-      "cluster": "build12",
-      "timestamp": "2026-11-25T22:00:34Z",
-      "overall_result": "S",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 0,
-      "failed_test_names": [],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-operator-framework-operator-controller-release-4.20-periodics-default-catalog-consistency/2125711359839571968"
-    },
-    {
-      "id": "2125705186671333376",
-      "job": "periodic-ci-shiftstack-ci-release-4.20-e2e-openstack-fips",
-      "brief_name": "periodic-ci-shiftstack-ci-release-4.20-e2e-openstack-fips",
-      "cluster": "build09",
-      "timestamp": "2026-11-25T21:36:24Z",
-      "overall_result": "S",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 0,
-      "failed_test_names": [],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-shiftstack-ci-release-4.20-e2e-openstack-fips/2125705186671333376"
     }
   ],
   "failure_categories": {
     "infrastructure": 0,
-    "test_failure": 48,
-    "unknown": 152
+    "test_failure": 46,
+    "unknown": 154
   },
   "top_failing_tests": [
     {
@@ -2864,19 +2857,15 @@
       "count": 39
     },
     {
+      "name": "[sig-sippy] infrastructure should work",
+      "count": 16
+    },
+    {
       "name": "Run multi-stage step openshift-e2e-test",
       "count": 15
     },
     {
-      "name": "[sig-sippy] infrastructure should work",
-      "count": 15
-    },
-    {
       "name": "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-      "count": 4
-    },
-    {
-      "name": "Run multi-stage step gather-extra",
       "count": 4
     },
     {
@@ -2896,19 +2885,27 @@
       "count": 3
     },
     {
+      "name": "Run multi-stage step gather-extra",
+      "count": 3
+    },
+    {
       "name": "install should succeed: overall",
       "count": 3
+    },
+    {
+      "name": "Run multi-stage step hypershift-aws-run-e2e-external",
+      "count": 2
     },
     {
       "name": "Run multi-stage step openshift-e2e-libvirt-test",
       "count": 2
     },
     {
-      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
+      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
       "count": 2
     },
     {
-      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
+      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
       "count": 2
     },
     {
@@ -2920,11 +2917,11 @@
       "count": 2
     },
     {
-      "name": "TestNodePool/HostedCluster0/Teardown",
+      "name": "Run multi-stage step hypershift-azure-run-e2e",
       "count": 2
     },
     {
-      "name": "Run multi-stage step hypershift-azure-run-e2e",
+      "name": "TestNodePool/HostedCluster0/Teardown",
       "count": 2
     },
     {
@@ -2932,23 +2929,15 @@
       "count": 2
     },
     {
-      "name": "install should succeed: pre configuration",
-      "count": 2
-    },
-    {
       "name": "Run multi-stage step ipi-conf-aws-user-min-permissions",
       "count": 2
     },
     {
+      "name": "install should succeed: pre configuration",
+      "count": 2
+    },
+    {
       "name": "[sig-arch] events should not repeat pathologically",
-      "count": 2
-    },
-    {
-      "name": "operator conditions network",
-      "count": 2
-    },
-    {
-      "name": "operator conditions image-registry",
       "count": 2
     },
     {
@@ -2976,27 +2965,15 @@
       "count": 1
     },
     {
+      "name": "[sig-node] node-lifecycle detects unreachable state on node",
+      "count": 1
+    },
+    {
       "name": "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
       "count": 1
     },
     {
-      "name": "[bz-Management Console] clusteroperator/console should not change condition/Available",
-      "count": 1
-    },
-    {
-      "name": "[sig-node] node-lifecycle detects unexpected not ready node",
-      "count": 1
-    },
-    {
-      "name": "[bz-Routing] clusteroperator/ingress should not change condition/Available",
-      "count": 1
-    },
-    {
-      "name": "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/new should be available throughout the test",
-      "count": 1
-    },
-    {
-      "name": "[sig-node] node-lifecycle detects unreachable state on node",
+      "name": "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
       "count": 1
     },
     {
@@ -3004,7 +2981,19 @@
       "count": 1
     },
     {
-      "name": "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
+      "name": "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/new should be available throughout the test",
+      "count": 1
+    },
+    {
+      "name": "[bz-Routing] clusteroperator/ingress should not change condition/Available",
+      "count": 1
+    },
+    {
+      "name": "[sig-node] node-lifecycle detects unexpected not ready node",
+      "count": 1
+    },
+    {
+      "name": "[bz-Management Console] clusteroperator/console should not change condition/Available",
       "count": 1
     },
     {
@@ -3016,39 +3005,11 @@
       "count": 1
     },
     {
-      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-oauth-apiserver",
-      "count": 1
-    },
-    {
-      "name": "[bz-OLM] clusteroperator/operator-lifecycle-manager-packageserver should not change condition/Available",
-      "count": 1
-    },
-    {
       "name": "[sig-network] there should be nearly zero single second disruptions for kube-api-http2-internal-lb-new-connections",
       "count": 1
     },
     {
-      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-machine-api",
-      "count": 1
-    },
-    {
-      "name": "[bz-etcd][invariant] alert/etcdMembersDown should not be at or above info",
-      "count": 1
-    },
-    {
-      "name": "[bz-apiserver-auth] clusteroperator/authentication should not change condition/Available",
-      "count": 1
-    },
-    {
-      "name": "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-etcd",
-      "count": 1
-    },
-    {
-      "name": "[bz-etcd][invariant] alert/etcdInsufficientMembers should not be at or above info",
-      "count": 1
-    },
-    {
-      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-apiserver",
+      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-oauth-apiserver",
       "count": 1
     },
     {
@@ -3056,10 +3017,42 @@
       "count": 1
     },
     {
+      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-apiserver",
+      "count": 1
+    },
+    {
+      "name": "[bz-etcd][invariant] alert/etcdInsufficientMembers should not be at or above info",
+      "count": 1
+    },
+    {
+      "name": "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-etcd",
+      "count": 1
+    },
+    {
+      "name": "[bz-apiserver-auth] clusteroperator/authentication should not change condition/Available",
+      "count": 1
+    },
+    {
+      "name": "[bz-etcd][invariant] alert/etcdMembersDown should not be at or above info",
+      "count": 1
+    },
+    {
+      "name": "[sig-arch] events should not repeat pathologically for ns/openshift-machine-api",
+      "count": 1
+    },
+    {
+      "name": "[bz-OLM] clusteroperator/operator-lifecycle-manager-packageserver should not change condition/Available",
+      "count": 1
+    },
+    {
       "name": "[sig-api-machinery][Feature:APIServer] API LBs follow /readyz of kube-apiserver and stop sending requests before server shutdowns for external clients",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step single-node-e2e-test",
       "count": 1
     }
   ],
   "version": "4.20",
-  "last_updated": "2026-11-26T13:05:53.660554+00:00"
+  "last_updated": "2026-11-26T13:22:54.268744+00:00"
 }

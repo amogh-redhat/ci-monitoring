@@ -1,6 +1,6 @@
 {
   "version": "4.16",
-  "last_updated": "2026-11-26T13:05:53.660554+00:00",
+  "last_updated": "2026-11-26T13:22:54.268744+00:00",
   "jobs": [
     {
       "id": 14156,
@@ -548,13 +548,13 @@
       "current_runs": 3,
       "current_passes": 3,
       "current_fails": 0,
-      "previous_pass_percentage": 66.66666412353516,
-      "previous_runs": 3,
-      "previous_passes": 2,
+      "previous_pass_percentage": 50,
+      "previous_runs": 2,
+      "previous_passes": 1,
       "previous_fails": 1,
-      "net_improvement": 33.33333206176758,
+      "net_improvement": 50,
       "current_average_duration_minutes": 135,
-      "previous_average_duration_minutes": 100,
+      "previous_average_duration_minutes": 87,
       "last_pass": "2026-11-24T15:00:24Z",
       "open_bugs": 0,
       "test_grid_url": "https://testgrid.k8s.io/redhat-openshift-ocp-release-4.16-informing#periodic-ci-shiftstack-ci-release-4.16-e2e-openstack-fips",

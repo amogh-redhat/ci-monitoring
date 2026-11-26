@@ -1,6 +1,32 @@
 {
-  "total_failing_runs": 8418,
+  "total_failing_runs": 8419,
   "runs": [
+    {
+      "id": "2125926411804872704",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T12:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125926411804872704"
+    },
+    {
+      "id": "2125924079104954368",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T12:06:12Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125924079104954368"
+    },
     {
       "id": "2125923015991496704",
       "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
@@ -201,11 +227,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
         "Run multi-stage step ipi-install-install-stableinitial",
-        "install should succeed: configuration",
-        "[sig-sippy] infrastructure should work",
         "install should succeed: overall",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: configuration"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-vsphere-zones-upgrade/2125837057254232064"
     },
@@ -428,9 +454,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "[sig-storage][Feature:DisableStorageClass][Serial][apigroup:operator.openshift.io] should reconcile the StorageClass when StorageClassState is Managed [Suite:openshift/conformance/serial]",
         "Run multi-stage step openshift-e2e-test",
-        "[sig-storage][Feature:DisableStorageClass][Serial][apigroup:operator.openshift.io] should reconcile the StorageClass when StorageClassState is Managed [Suite:openshift/conformance/serial]"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial/2125811491541094400"
     },
@@ -803,8 +829,8 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
         "Run multi-stage step ipi-install-install",
+        "[sig-sippy] openshift-tests should work",
         "install should succeed: overall",
         "[sig-sippy] infrastructure should work",
         "install should succeed: configuration"
@@ -823,10 +849,10 @@
       "test_failures": 5,
       "failed_test_names": [
         "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work",
         "install should succeed: overall",
         "install should succeed: configuration",
-        "Run multi-stage step ipi-install-install"
+        "Run multi-stage step ipi-install-install",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-node-compliance-arm-weekly/2125733875844911104"
     },
@@ -854,11 +880,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work",
-        "Run multi-stage step optional-operators-subscribe",
         "Run multi-stage step gather-audit-logs",
-        "Run multi-stage step gather-must-gather"
+        "Run multi-stage step gather-must-gather",
+        "Run multi-stage step optional-operators-subscribe",
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125726155955769344"
     },
@@ -873,11 +899,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "Run multi-stage step gather-audit-logs",
         "Run multi-stage step gather-must-gather",
-        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step optional-operators-subscribe",
+        "Run multi-stage step gather-audit-logs",
         "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step optional-operators-subscribe"
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125720169866072064"
     },
@@ -1080,12 +1106,12 @@
       "known_failure": false,
       "test_failures": 6,
       "failed_test_names": [
-        "[sig-sippy] infrastructure should work",
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step gather-azure-cli",
-        "Run multi-stage step ipi-conf-azure",
         "install should succeed: overall",
-        "install should succeed: pre configuration"
+        "install should succeed: pre configuration",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step ipi-conf-azure",
+        "Run multi-stage step gather-azure-cli"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn/2125671967439720448"
     },
@@ -1113,9 +1139,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step ofcir-release",
         "[sig-sippy] infrastructure should work",
-        "Run multi-stage step ofcir-release"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125665659806289920"
     },
@@ -1771,8 +1797,8 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
         "Run multi-stage step release-qe-tests",
+        "[sig-sippy] openshift-tests should work",
         "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125533840628781056"
@@ -1814,12 +1840,12 @@
       "known_failure": false,
       "test_failures": 6,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step ipi-install-install",
         "Run multi-stage step gather-must-gather",
-        "install should succeed: overall",
+        "Run multi-stage step ipi-install-install",
         "install should succeed: infrastructure",
-        "[sig-sippy] infrastructure should work"
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "install should succeed: overall"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics/2125502347646865408"
     },
@@ -1951,9 +1977,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "Run multi-stage step openshift-e2e-test",
         "[sig-api-machinery] ValidatingAdmissionPolicy [Privileged:ClusterAdmin] should type check a CRD [Suite:openshift/conformance/parallel] [Suite:k8s]",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125458869265108992"
     },
@@ -1994,8 +2020,8 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-api-machinery] ValidatingAdmissionPolicy [Privileged:ClusterAdmin] should type check a CRD [Suite:openshift/conformance/parallel] [Suite:k8s]",
         "Run multi-stage step baremetalds-e2e-test",
+        "[sig-api-machinery] ValidatingAdmissionPolicy [Privileged:ClusterAdmin] should type check a CRD [Suite:openshift/conformance/parallel] [Suite:k8s]",
         "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125449131001384960"
@@ -2346,9 +2372,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetalds-e2e-test",
         "[sig-network] pods should successfully create sandboxes by other",
-        "Run multi-stage step baremetalds-e2e-test"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-metal-ipi-ovn-upgrade-network-flow-matrix/2125364071640338432"
     },
@@ -2483,11 +2509,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "[bz-Management Console] clusteroperator/console should not change condition/Available",
         "[sig-sippy] openshift-tests should work",
-        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+        "[bz-Management Console] clusteroperator/console should not change condition/Available",
+        "Run multi-stage step openshift-e2e-test",
         "[bz-Routing] clusteroperator/ingress should not change condition/Available",
-        "Run multi-stage step openshift-e2e-test"
+        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix/2125333842997809152"
     },
@@ -2516,8 +2542,8 @@
       "test_failures": 3,
       "failed_test_names": [
         "Run multi-stage step openshift-e2e-test",
-        "[sig-sippy] openshift-tests should work",
-        "[sig-network] pods should successfully create sandboxes by other"
+        "[sig-network] pods should successfully create sandboxes by other",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade/2125323127251537920"
     },
@@ -2655,9 +2681,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
+        "Run multi-stage step release-qe-tests",
         "[sig-sippy] infrastructure should work",
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step release-qe-tests"
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125307331271987200"
     },
@@ -2672,8 +2698,8 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] infrastructure should work",
         "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
         "Run multi-stage step release-qe-tests"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125292223292510208"
@@ -2780,42 +2806,12 @@
         "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125281456161820672"
-    },
-    {
-      "id": "2125281325865766912",
-      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
-      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
-      "cluster": "build10",
-      "timestamp": "2026-11-24T17:31:54Z",
-      "overall_result": "n",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 1,
-      "failed_test_names": [
-        "[sig-sippy] infrastructure should work"
-      ],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125281325865766912"
-    },
-    {
-      "id": "2125281200460271616",
-      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
-      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
-      "cluster": "build10",
-      "timestamp": "2026-11-24T17:17:37Z",
-      "overall_result": "n",
-      "infrastructure_failure": false,
-      "known_failure": false,
-      "test_failures": 1,
-      "failed_test_names": [
-        "[sig-sippy] infrastructure should work"
-      ],
-      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125281200460271616"
     }
   ],
   "failure_categories": {
     "infrastructure": 0,
-    "test_failure": 55,
-    "unknown": 145
+    "test_failure": 53,
+    "unknown": 147
   },
   "top_failing_tests": [
     {
@@ -2824,7 +2820,7 @@
     },
     {
       "name": "[sig-sippy] infrastructure should work",
-      "count": 36
+      "count": 34
     },
     {
       "name": "Run multi-stage step openshift-e2e-test",
@@ -2875,11 +2871,11 @@
       "count": 2
     },
     {
-      "name": "Run multi-stage step optional-operators-subscribe",
+      "name": "Run multi-stage step gather-audit-logs",
       "count": 2
     },
     {
-      "name": "Run multi-stage step gather-audit-logs",
+      "name": "Run multi-stage step optional-operators-subscribe",
       "count": 2
     },
     {
@@ -2915,7 +2911,7 @@
       "count": 1
     },
     {
-      "name": "Run multi-stage step gather-azure-cli",
+      "name": "install should succeed: pre configuration",
       "count": 1
     },
     {
@@ -2923,7 +2919,7 @@
       "count": 1
     },
     {
-      "name": "install should succeed: pre configuration",
+      "name": "Run multi-stage step gather-azure-cli",
       "count": 1
     },
     {
@@ -2967,14 +2963,14 @@
       "count": 1
     },
     {
-      "name": "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+      "name": "[bz-Routing] clusteroperator/ingress should not change condition/Available",
       "count": 1
     },
     {
-      "name": "[bz-Routing] clusteroperator/ingress should not change condition/Available",
+      "name": "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
       "count": 1
     }
   ],
   "version": "4.17",
-  "last_updated": "2026-11-26T13:05:53.660554+00:00"
+  "last_updated": "2026-11-26T13:22:54.268744+00:00"
 }

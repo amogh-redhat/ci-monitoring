@@ -5,8 +5,8 @@
       "versions": {
         "5.1": {
           "total_jobs": 1149,
-          "pass_rate": 31.77,
-          "failing_jobs": 754,
+          "pass_rate": 31.85,
+          "failing_jobs": 753,
           "infrastructure_failures": 0
         },
         "5.0": {
@@ -17,31 +17,31 @@
         },
         "4.23": {
           "total_jobs": 758,
-          "pass_rate": 41.56,
-          "failing_jobs": 432,
+          "pass_rate": 41.69,
+          "failing_jobs": 431,
           "infrastructure_failures": 0
         },
         "4.22": {
           "total_jobs": 1058,
           "pass_rate": 36.58,
-          "failing_jobs": 646,
+          "failing_jobs": 647,
           "infrastructure_failures": 0
         },
         "4.21": {
           "total_jobs": 743,
-          "pass_rate": 50.61,
-          "failing_jobs": 352,
+          "pass_rate": 50.47,
+          "failing_jobs": 353,
           "infrastructure_failures": 0
         },
         "4.20": {
           "total_jobs": 559,
-          "pass_rate": 39.89,
+          "pass_rate": 40.07,
           "failing_jobs": 304,
           "infrastructure_failures": 0
         },
         "4.19": {
           "total_jobs": 465,
-          "pass_rate": 45.81,
+          "pass_rate": 46.24,
           "failing_jobs": 220,
           "infrastructure_failures": 0
         },
