@@ -24,7 +24,7 @@
         "4.22": {
           "total_jobs": 1058,
           "pass_rate": 36.58,
-          "failing_jobs": 647,
+          "failing_jobs": 646,
           "infrastructure_failures": 0
         },
         "4.21": {

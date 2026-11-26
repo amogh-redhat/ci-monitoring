@@ -1,6 +1,6 @@
 {
   "version": "4.20",
-  "last_updated": "2026-11-26T13:22:54.268744+00:00",
+  "last_updated": "2026-11-26T13:27:36.823402+00:00",
   "jobs": [
     {
       "id": 11744,
@@ -12565,13 +12565,13 @@
       "current_runs": 3,
       "current_passes": 2,
       "current_fails": 1,
-      "previous_pass_percentage": 75,
-      "previous_runs": 4,
+      "previous_pass_percentage": 100,
+      "previous_runs": 3,
       "previous_passes": 3,
-      "previous_fails": 1,
-      "net_improvement": -8.333333015441895,
+      "previous_fails": 0,
+      "net_improvement": -33.33333206176758,
       "current_average_duration_minutes": 335,
-      "previous_average_duration_minutes": 335,
+      "previous_average_duration_minutes": 341,
       "last_pass": "2026-11-25T22:53:24Z",
       "open_bugs": 2,
       "test_grid_url": "https://testgrid.k8s.io/redhat-openshift-ocp-release-4.20-informing#periodic-ci-shiftstack-ci-release-4.20-techpreview-e2e-openstack-ovn-serial-techpreview",
