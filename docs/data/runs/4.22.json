@@ -1,0 +1,3026 @@
+{
+  "total_failing_runs": 82308,
+  "runs": [
+    {
+      "id": "2125923039638982656",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T12:00:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125923039638982656"
+    },
+    {
+      "id": "2125922938816303104",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T12:00:43Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125922938816303104"
+    },
+    {
+      "id": "2125918865161457664",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T11:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125918865161457664"
+    },
+    {
+      "id": "2125916833595789312",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T11:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125916833595789312"
+    },
+    {
+      "id": "2125915104527519744",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T11:30:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125915104527519744"
+    },
+    {
+      "id": "2125911331335835648",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T11:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125911331335835648"
+    },
+    {
+      "id": "2125911163655950336",
+      "job": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "brief_name": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T11:14:53Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e/2125911163655950336"
+    },
+    {
+      "id": "2125909297031286784",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T11:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125909297031286784"
+    },
+    {
+      "id": "2125908597782089728",
+      "job": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "brief_name": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T11:04:41Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e/2125908597782089728"
+    },
+    {
+      "id": "2125907641203953664",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T11:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125907641203953664"
+    },
+    {
+      "id": "2125907631141818368",
+      "job": "periodic-ci-openshift-eng-ocp-perfscale-main-metal-4.22-nightly-x86-payload-daily-node-density-cni-sriov-mlx",
+      "brief_name": "periodic-ci-openshift-eng-ocp-perfscale-main-metal-4.22-nightly-x86-payload-daily-node-density-cni-sriov-mlx",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T11:00:33Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step openshift-qe-installer-bm-poweroff"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-eng-ocp-perfscale-main-metal-4.22-nightly-x86-payload-daily-node-density-cni-sriov-mlx/2125907631141818368"
+    },
+    {
+      "id": "2125907621910155264",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T11:00:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125907621910155264"
+    },
+    {
+      "id": "2125907056694136832",
+      "job": "release-openshift-origin-installer-e2e-aws-upgrade-4.19-to-4.20-to-4.21-to-4.22-ci",
+      "brief_name": "release-openshift-origin-installer-e2e-aws-upgrade-4.19-to-4.20-to-4.21-to-4.22-ci",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:58:25Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/release-openshift-origin-installer-e2e-aws-upgrade-4.19-to-4.20-to-4.21-to-4.22-ci/2125907056694136832"
+    },
+    {
+      "id": "2125903774177300480",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:45:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125903774177300480"
+    },
+    {
+      "id": "2125901733958782976",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125901733958782976"
+    },
+    {
+      "id": "2125901204859916288",
+      "job": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "brief_name": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T10:35:19Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e/2125901204859916288"
+    },
+    {
+      "id": "2125900040617594880",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:30:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125900040617594880"
+    },
+    {
+      "id": "2125898156058087424",
+      "job": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "brief_name": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T10:23:12Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e/2125898156058087424"
+    },
+    {
+      "id": "2125896241907765248",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:15:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125896241907765248"
+    },
+    {
+      "id": "2125894199042641920",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125894199042641920"
+    },
+    {
+      "id": "2125893429350109184",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-external-oidc",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-external-oidc",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T10:04:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-external-oidc/2125893429350109184"
+    },
+    {
+      "id": "2125892950935212032",
+      "job": "periodic-ci-openshift-operator-framework-operator-controller-release-4.22-periodics-e2e-aws-ovn-techpreview-extended-f1",
+      "brief_name": "periodic-ci-openshift-operator-framework-operator-controller-release-4.22-periodics-e2e-aws-ovn-techpreview-extended-f1",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T10:02:26Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 13,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-olmv1][Jira:OLM] clusterextension PolarionID:83979-[OTP][Skipped:Disconnected]ClusterExtension installs webhook-operator and webhooks work",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:85889-[OTP][Skipped:Disconnected]Validate catalogd content via port-forward [Serial]",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:69869-[OTP][Skipped:Disconnected]Catalogd Add metrics to the Storage implementation",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:75441-[OTP][Skipped:Disconnected]Catalogd supports compression and jsonlines format",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:69123-[OTP][Skipped:Disconnected]Catalogd clustercatalog offer the operator content through http server",
+        "[sig-olmv1][Jira:OLM] clusterextension PolarionID:83026-[OTP][Skipped:Disconnected]clusterextension updates sometimes failed with the following error from the CRDUpgradeCheck resource unknown change and refusing to determine that change is safe",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:73219-[OTP][Skipped:Disconnected]Fetch deprecation data from the catalogd http server",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:75218-[OTP][Skipped:Disconnected]Disabling the CRD Upgrade Safety preflight checks",
+        "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:73289-[OTP][Skipped:Disconnected]Check the deprecation conditions and messages",
+        "[Jira:\"Test Framework\"] there should not be mass test failures",
+        "[sig-olmv1][Jira:OLM] clusterextension PolarionID:82136-[OTP][Skipped:Disconnected]olm v1 supports NetworkPolicy resources",
+        "Run multi-stage step openshift-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-operator-framework-operator-controller-release-4.22-periodics-e2e-aws-ovn-techpreview-extended-f1/2125892950935212032"
+    },
+    {
+      "id": "2125892925949743104",
+      "job": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-gcp-techpreview",
+      "brief_name": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-gcp-techpreview",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T10:02:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-gcp-techpreview/2125892925949743104"
+    },
+    {
+      "id": "2125892925777776640",
+      "job": "periodic-ci-openshift-csi-operator-release-4.22-periodics-periodic-e2e-smb-csi",
+      "brief_name": "periodic-ci-openshift-csi-operator-release-4.22-periodics-periodic-e2e-smb-csi",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:02:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-csi-operator-release-4.22-periodics-periodic-e2e-smb-csi/2125892925777776640"
+    },
+    {
+      "id": "2125892623011942400",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T10:00:40Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125892623011942400"
+    },
+    {
+      "id": "2125892611074953216",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-compact-iso-no-registry",
+      "brief_name": "e2e-agent-compact-iso-no-registry",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T10:00:39Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: other",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetalds-devscripts-setup",
+        "install should succeed: overall"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-compact-iso-no-registry/2125892611074953216"
+    },
+    {
+      "id": "2125892605202927616",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T10:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125892605202927616"
+    },
+    {
+      "id": "2125890660731981824",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T09:53:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks/2125890660731981824"
+    },
+    {
+      "id": "2125889906239606784",
+      "job": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "brief_name": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T09:50:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e/2125889906239606784"
+    },
+    {
+      "id": "2125889905811787776",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-external-oidc-techpreview",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-external-oidc-techpreview",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T09:50:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-external-oidc-techpreview/2125889905811787776"
+    },
+    {
+      "id": "2125888668391444480",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T09:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125888668391444480"
+    },
+    {
+      "id": "2125887731459428352",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks-multi-x-ax",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks-multi-x-ax",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T09:41:46Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 7,
+      "failed_test_names": [
+        "Run multi-stage step hypershift-azure-run-e2e",
+        "[sig-sippy] infrastructure should work",
+        "TestNodePoolMultiArch",
+        "TestNodePoolMultiArch/HostedCluster0/Main/TestNodePoolArm64Create",
+        "[sig-sippy] openshift-tests should work",
+        "TestNodePoolMultiArch/HostedCluster0/Main",
+        "TestNodePoolMultiArch/HostedCluster0"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks-multi-x-ax/2125887731459428352"
+    },
+    {
+      "id": "2125887185776283648",
+      "job": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "brief_name": "periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T09:39:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-configuration-anomaly-detection-main-rosa-stage-e2e/2125887185776283648"
+    },
+    {
+      "id": "2125886634430828544",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T09:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125886634430828544"
+    },
+    {
+      "id": "2125884921200250880",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T09:30:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125884921200250880"
+    },
+    {
+      "id": "2125883865951113216",
+      "job": "periodic-ci-openshift-cluster-storage-operator-release-4.22-periodics-periodic-e2e-azure-ovn-upgrade-check-dev-symlinks",
+      "brief_name": "periodic-ci-openshift-cluster-storage-operator-release-4.22-periodics-periodic-e2e-azure-ovn-upgrade-check-dev-symlinks",
+      "cluster": "build05",
+      "timestamp": "2026-11-26T09:26:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-storage-operator-release-4.22-periodics-periodic-e2e-azure-ovn-upgrade-check-dev-symlinks/2125883865951113216"
+    },
+    {
+      "id": "2125882607714439168",
+      "job": "periodic-ci-openshift-cluster-authentication-operator-release-4.22-periodics-e2e-vsphere-external-oidc-uid-extra",
+      "brief_name": "periodic-ci-openshift-cluster-authentication-operator-release-4.22-periodics-e2e-vsphere-external-oidc-uid-extra",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T09:21:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-authentication-operator-release-4.22-periodics-e2e-vsphere-external-oidc-uid-extra/2125882607714439168"
+    },
+    {
+      "id": "2125881122964377600",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T09:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125881122964377600"
+    },
+    {
+      "id": "2125880594805035008",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-upgrade",
+      "brief_name": "e2e-metal-ovn-two-node-fencing-upgrade",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T09:13:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetalds-e2e-test",
+        "[Monitor:legacy-test-framework-invariants-alerts][bz-etcd][invariant] alert/etcdInsufficientMembers should not be at or above info"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-upgrade/2125880594805035008"
+    },
+    {
+      "id": "2125879084587159552",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T09:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125879084587159552"
+    },
+    {
+      "id": "2125877474721009664",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T09:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125877474721009664"
+    },
+    {
+      "id": "2125877425932865536",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T09:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125877425932865536"
+    },
+    {
+      "id": "2125877397474512896",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-azure-aks-external-oidc",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-azure-aks-external-oidc",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T09:00:31Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-azure-aks-external-oidc/2125877397474512896"
+    },
+    {
+      "id": "2125874302824747008",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ipi-ovn-runc",
+      "brief_name": "e2e-vsphere-ipi-ovn-runc",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T08:48:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ipi-ovn-runc/2125874302824747008"
+    },
+    {
+      "id": "2125873577168211968",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T08:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125873577168211968"
+    },
+    {
+      "id": "2125871535053869056",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T08:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125871535053869056"
+    },
+    {
+      "id": "2125869813069778944",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T08:30:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125869813069778944"
+    },
+    {
+      "id": "2125866027244851200",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T08:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125866027244851200"
+    },
+    {
+      "id": "2125863984757215232",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T08:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125863984757215232"
+    },
+    {
+      "id": "2125863655751815168",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-multi",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-multi",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T08:05:57Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-multi/2125863655751815168"
+    },
+    {
+      "id": "2125863653226844160",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-multi-x-x",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-x",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:57Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-multi-x-x/2125863653226844160"
+    },
+    {
+      "id": "2125863650710261760",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-3of3",
+      "brief_name": "ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-3of3",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:57Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-3of3/2125863650710261760"
+    },
+    {
+      "id": "2125863648210456576",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-multi-a-a",
+      "brief_name": "ocp-e2e-aws-ovn-techpreview-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:57Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-multi-a-a/2125863648210456576"
+    },
+    {
+      "id": "2125863646520152064",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:56Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 2,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L2 dualstack primary UDN [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-multi-a-a/2125863646520152064"
+    },
+    {
+      "id": "2125863642325848064",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-gcp-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-gcp-ovn-multi-a-a",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T08:05:56Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-gcp-ovn-multi-a-a/2125863642325848064"
+    },
+    {
+      "id": "2125863638127349760",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-upgrade-gcp-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-upgrade-gcp-ovn-multi-x-ax",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T08:05:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-upgrade-gcp-ovn-multi-x-ax/2125863638127349760"
+    },
+    {
+      "id": "2125863635623350272",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-stable-4.21-ocp-e2e-upgrade-gcp-ovn-multi-x-ax",
+      "brief_name": "upgrade-from-stable-4.21-ocp-e2e-upgrade-gcp-ovn-multi-x-ax",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T08:05:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-stable-4.21-ocp-e2e-upgrade-gcp-ovn-multi-x-ax/2125863635623350272"
+    },
+    {
+      "id": "2125863633094184960",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks-multi-x-ax",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks-multi-x-ax",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T08:05:55Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 7,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "TestNodePoolMultiArch/HostedCluster0/Main/TestNodePoolArm64Create",
+        "TestNodePoolMultiArch",
+        "TestNodePoolMultiArch/HostedCluster0/Main",
+        "[sig-sippy] infrastructure should work",
+        "TestNodePoolMultiArch/HostedCluster0",
+        "Run multi-stage step hypershift-azure-run-e2e"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aks-multi-x-ax/2125863633094184960"
+    },
+    {
+      "id": "2125863631416463360",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-serial-aws-multi-a-a-1of2",
+      "brief_name": "ocp-e2e-ovn-serial-aws-multi-a-a-1of2",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-serial-aws-multi-a-a-1of2/2125863631416463360"
+    },
+    {
+      "id": "2125863628908269568",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-azure-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-azure-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-azure-ovn-multi-a-a/2125863628908269568"
+    },
+    {
+      "id": "2125863627234742272",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-serial-aws-multi-a-a-2of2",
+      "brief_name": "ocp-e2e-ovn-serial-aws-multi-a-a-2of2",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-serial-aws-multi-a-a-2of2/2125863627234742272"
+    },
+    {
+      "id": "2125863622193188864",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-stable-4.21-ocp-e2e-upgrade-azure-ovn-multi-x-ax",
+      "brief_name": "upgrade-from-stable-4.21-ocp-e2e-upgrade-azure-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-stable-4.21-ocp-e2e-upgrade-azure-ovn-multi-x-ax/2125863622193188864"
+    },
+    {
+      "id": "2125863619680800768",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-multi-x-ax/2125863619680800768"
+    },
+    {
+      "id": "2125863612122664960",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-upgrade-azure-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-upgrade-azure-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-upgrade-azure-ovn-multi-x-ax/2125863612122664960"
+    },
+    {
+      "id": "2125863606246445056",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-upgrade-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-upgrade-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-upgrade-multi-x-ax/2125863606246445056"
+    },
+    {
+      "id": "2125863603243323392",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-stable-4.21-ocp-e2e-aws-ovn-upgrade-multi-x-ax",
+      "brief_name": "upgrade-from-stable-4.21-ocp-e2e-aws-ovn-upgrade-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-stable-4.21-ocp-e2e-aws-ovn-upgrade-multi-x-ax/2125863603243323392"
+    },
+    {
+      "id": "2125863603205574656",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-sno-multi-a-a",
+      "brief_name": "ocp-e2e-aws-ovn-sno-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 2,
+      "failed_test_names": [
+        "Run multi-stage step single-node-e2e-test",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-sno-multi-a-a/2125863603205574656"
+    },
+    {
+      "id": "2125863603075551232",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-2of3",
+      "brief_name": "ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-2of3",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-2of3/2125863603075551232"
+    },
+    {
+      "id": "2125863603033608192",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-1of3",
+      "brief_name": "ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-1of3",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-aws-ovn-techpreview-serial-multi-a-a-1of3/2125863603033608192"
+    },
+    {
+      "id": "2125863602995859456",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-upgrade-aws-ovn-multi-x-x",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-x-x",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-upgrade-aws-ovn-multi-x-x/2125863602995859456"
+    },
+    {
+      "id": "2125863602945527808",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-gcp-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-gcp-ovn-multi-x-ax",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-gcp-ovn-multi-x-ax/2125863602945527808"
+    },
+    {
+      "id": "2125863602899390464",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-azure-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-azure-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T08:05:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-azure-ovn-multi-x-ax/2125863602899390464"
+    },
+    {
+      "id": "2125863481335877632",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-ovn-two-node-fencing",
+      "brief_name": "e2e-agent-ovn-two-node-fencing",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T08:05:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-ovn-two-node-fencing/2125863481335877632"
+    },
+    {
+      "id": "2125862590360850432",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T08:00:53Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125862590360850432"
+    },
+    {
+      "id": "2125862505661075456",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T08:00:46Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125862505661075456"
+    },
+    {
+      "id": "2125862458672287744",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-nightly-4.21-ocp-ovn-remote-s2s-libvirt-multi-p-p",
+      "brief_name": "upgrade-from-nightly-4.21-ocp-ovn-remote-s2s-libvirt-multi-p-p",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T08:00:43Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step upi-libvirt-cleanup-pre",
+        "Run multi-stage step upi-libvirt-cleanup-post"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-nightly-4.21-ocp-ovn-remote-s2s-libvirt-multi-p-p/2125862458672287744"
+    },
+    {
+      "id": "2125862456998760448",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-nightly-4.21-ocp-ovn-remote-libvirt-multi-z-z",
+      "brief_name": "upgrade-from-nightly-4.21-ocp-ovn-remote-libvirt-multi-z-z",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T08:00:42Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[Monitor:audit-log-analyzer][sig-api-machinery][Feature:APIServer] API LBs follow /readyz of kube-apiserver and stop sending requests before server shutdowns for external clients",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-libvirt-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-upgrade-from-nightly-4.21-ocp-ovn-remote-libvirt-multi-z-z/2125862456998760448"
+    },
+    {
+      "id": "2125860964698951680",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-upi-hybrid-env",
+      "brief_name": "e2e-vsphere-ovn-upi-hybrid-env",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T07:55:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-upi-hybrid-env/2125860964698951680"
+    },
+    {
+      "id": "2125859707330498560",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-hybrid-env-serial-2of2",
+      "brief_name": "e2e-vsphere-ovn-hybrid-env-serial-2of2",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T07:50:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-hybrid-env-serial-2of2/2125859707330498560"
+    },
+    {
+      "id": "2125859706835570688",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-hybrid-env-serial-1of2",
+      "brief_name": "e2e-vsphere-ovn-hybrid-env-serial-1of2",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T07:50:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-hybrid-env-serial-1of2/2125859706835570688"
+    },
+    {
+      "id": "2125858471323635712",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T07:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125858471323635712"
+    },
+    {
+      "id": "2125858468790276096",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-hybrid-env",
+      "brief_name": "e2e-vsphere-ovn-hybrid-env",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T07:45:26Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-api-machinery] CustomResourcePublishOpenAPI [Privileged:ClusterAdmin] works for multiple CRDs of different groups [Conformance]",
+        "Run multi-stage step openshift-e2e-test",
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-hybrid-env/2125858468790276096"
+    },
+    {
+      "id": "2125856938561376256",
+      "job": "periodic-ci-openshift-insights-operator-release-4.22-periodics-azure-insights-runtime-extractor-tests",
+      "brief_name": "periodic-ci-openshift-insights-operator-release-4.22-periodics-azure-insights-runtime-extractor-tests",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T07:39:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.22-periodics-azure-insights-runtime-extractor-tests/2125856938561376256"
+    },
+    {
+      "id": "2125856671094804480",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T07:37:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125856671094804480"
+    },
+    {
+      "id": "2125856730263851008",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-techpreview",
+      "brief_name": "e2e-metal-ovn-two-node-fencing-techpreview",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-techpreview/2125856730263851008"
+    },
+    {
+      "id": "2125856668540473344",
+      "job": "periodic-ci-openshift-operator-framework-olm-release-4.22-periodics-e2e-metal-ovn-two-node-fencing-dualstack-tp-extended-f5",
+      "brief_name": "periodic-ci-openshift-operator-framework-olm-release-4.22-periodics-e2e-metal-ovn-two-node-fencing-dualstack-tp-extended-f5",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T07:37:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[sig-operator][Jira:OLM] OLMv0 within a namespace PolarionID:27680-[OTP][Skipped:Disconnected]OLM Bundle support for Prometheus Types [Serial]",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetalds-e2e-test",
+        "[sig-operator][Jira:OLM] OLMv0 within a namespace PolarionID:68521-[OTP][Skipped:Disconnected]Check failureThreshold of redhat-operators catalog"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-operator-framework-olm-release-4.22-periodics-e2e-metal-ovn-two-node-fencing-dualstack-tp-extended-f5/2125856668540473344"
+    },
+    {
+      "id": "2125856665545740288",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing",
+      "brief_name": "e2e-metal-ovn-two-node-fencing",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:37:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-auth][Feature:SCC][Early] should not have pod creation failures during install [Suite:openshift/conformance/parallel]",
+        "Run multi-stage step baremetalds-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing/2125856665545740288"
+    },
+    {
+      "id": "2125855726772424704",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:34:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim/2125855726772424704"
+    },
+    {
+      "id": "2125854924938940416",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-two-node-fencing-ipv6-certrotation",
+      "brief_name": "e2e-metal-two-node-fencing-ipv6-certrotation",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:31:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-two-node-fencing-ipv6-certrotation/2125854924938940416"
+    },
+    {
+      "id": "2125854735985545216",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T07:30:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125854735985545216"
+    },
+    {
+      "id": "2125854705786556416",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-v2-aws",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-v2-aws",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T07:30:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-v2-aws/2125854705786556416"
+    },
+    {
+      "id": "2125854296963551232",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-ovn-ipv6",
+      "brief_name": "e2e-metal-ipi-ovn-ipv6",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:28:53Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-ovn-ipv6/2125854296963551232"
+    },
+    {
+      "id": "2125854294434385920",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-fips-payload-scan",
+      "brief_name": "fips-payload-scan",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:53Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-fips-payload-scan/2125854294434385920"
+    },
+    {
+      "id": "2125854289405415424",
+      "job": "periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview-serial-3of3",
+      "brief_name": "e2e-aws-ovn-techpreview-serial-3of3",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:51Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview-serial-3of3/2125854289405415424"
+    },
+    {
+      "id": "2125854286893027328",
+      "job": "periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview-serial-2of3",
+      "brief_name": "e2e-aws-ovn-techpreview-serial-2of3",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:51Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview-serial-2of3/2125854286893027328"
+    },
+    {
+      "id": "2125854285244665856",
+      "job": "periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview-serial-1of3",
+      "brief_name": "e2e-aws-ovn-techpreview-serial-1of3",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview-serial-1of3/2125854285244665856"
+    },
+    {
+      "id": "2125854281012613120",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-ovn-serial-1of2",
+      "brief_name": "e2e-aws-ovn-serial-1of2",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-ovn-serial-1of2/2125854281012613120"
+    },
+    {
+      "id": "2125854274050068480",
+      "job": "periodic-ci-openshift-release-main-ci-4.22-e2e-azure-ovn-upgrade",
+      "brief_name": "e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-26T07:28:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.22-e2e-azure-ovn-upgrade/2125854274050068480"
+    },
+    {
+      "id": "2125854274003931136",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-ovn-ipv4",
+      "brief_name": "e2e-metal-ipi-ovn-ipv4",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:28:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-ovn-ipv4/2125854274003931136"
+    },
+    {
+      "id": "2125854273949405184",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-ovn-serial-2of2",
+      "brief_name": "e2e-aws-ovn-serial-2of2",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-ovn-serial-2of2/2125854273949405184"
+    },
+    {
+      "id": "2125854273920045056",
+      "job": "periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview",
+      "brief_name": "e2e-aws-ovn-techpreview",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.22-e2e-aws-ovn-techpreview/2125854273920045056"
+    },
+    {
+      "id": "2125854273727107072",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-ovn-conformance",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-ovn-conformance",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T07:28:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 2,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
+        "[Jira:\"Cloud Credential Operator\"] Cluster_Operator CCO is enabled [Suite:cco/conformance/parallel][OTP][PolarionID:64885][platform:aws] Critical-CCO-based flow for olm managed operators and AWS STS"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-aws-ovn-conformance/2125854273727107072"
+    },
+    {
+      "id": "2125854273538363392",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-ovn-upgrade-fips",
+      "brief_name": "e2e-aws-ovn-upgrade-fips",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-ovn-upgrade-fips/2125854273538363392"
+    },
+    {
+      "id": "2125854273496420352",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-driver-toolkit",
+      "brief_name": "e2e-aws-driver-toolkit",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:28:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-aws-driver-toolkit/2125854273496420352"
+    },
+    {
+      "id": "2125852156660551680",
+      "job": "periodic-ci-openshift-assisted-image-service-release-ocm-2.17-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-image-service-release-ocm-2.17-mirror-nightly-image",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T07:20:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-image-service-release-ocm-2.17-mirror-nightly-image/2125852156660551680"
+    },
+    {
+      "id": "2125850935933538304",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T07:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125850935933538304"
+    },
+    {
+      "id": "2125850918321655808",
+      "job": "periodic-ci-openshift-lightspeed-service-main-4.22-ols-eval-periodic-daily",
+      "brief_name": "periodic-ci-openshift-lightspeed-service-main-4.22-ols-eval-periodic-daily",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T07:15:26Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step e2e",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.22-ols-eval-periodic-daily/2125850918321655808"
+    },
+    {
+      "id": "2125849388273111040",
+      "job": "periodic-ci-openshift-file-integrity-operator-master-nightly-4.22-baremetalds-ipi-ovn-lvms-f7",
+      "brief_name": "periodic-ci-openshift-file-integrity-operator-master-nightly-4.22-baremetalds-ipi-ovn-lvms-f7",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T07:09:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-file-integrity-operator-master-nightly-4.22-baremetalds-ipi-ovn-lvms-f7/2125849388273111040"
+    },
+    {
+      "id": "2125848884994379776",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T07:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125848884994379776"
+    },
+    {
+      "id": "2125847301149691904",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T07:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125847301149691904"
+    },
+    {
+      "id": "2125847290244501504",
+      "job": "periodic-ci-openshift-eng-ocp-qe-perfscale-ci-main-gcp-4.22-nightly-x86-olmv1-benchmark-test",
+      "brief_name": "periodic-ci-openshift-eng-ocp-qe-perfscale-ci-main-gcp-4.22-nightly-x86-olmv1-benchmark-test",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:00:37Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-eng-ocp-qe-perfscale-ci-main-gcp-4.22-nightly-x86-olmv1-benchmark-test/2125847290244501504"
+    },
+    {
+      "id": "2125847243264102400",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-bgp-virt-ipv4-techpreview",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-bgp-virt-ipv4-techpreview",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T07:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-bgp-virt-ipv4-techpreview/2125847243264102400"
+    },
+    {
+      "id": "2125847241582186496",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-bgp-virt-ipv4",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-bgp-virt-ipv4",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T07:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-bgp-virt-ipv4/2125847241582186496"
+    },
+    {
+      "id": "2125847240059654144",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T07:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125847240059654144"
+    },
+    {
+      "id": "2125847214755418112",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p",
+      "brief_name": "ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T07:00:32Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step upi-libvirt-cleanup-pre",
+        "Run multi-stage step upi-libvirt-cleanup-post",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-serial-ovn-remote-s2s-libvirt-multi-p-p/2125847214755418112"
+    },
+    {
+      "id": "2125847212217864192",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-serial-ovn-remote-libvirt-multi-z-z",
+      "brief_name": "ocp-e2e-serial-ovn-remote-libvirt-multi-z-z",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T07:00:31Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-serial-ovn-remote-libvirt-multi-z-z/2125847212217864192"
+    },
+    {
+      "id": "2125846766266880000",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:58:59Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim/2125846766266880000"
+    },
+    {
+      "id": "2125843851758276608",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-degraded-tn-suite",
+      "brief_name": "e2e-metal-ovn-two-node-fencing-degraded-tn-suite",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:47:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 6,
+      "failed_test_names": [
+        "verify all nodes should be ready",
+        "verify the cluster readiness and stability",
+        "verify operator conditions etcd",
+        "verify node count should match or exceed machine count",
+        "Run multi-stage step baremetalds-two-node-fencing-post-install-node-degredation",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-degraded-tn-suite/2125843851758276608"
+    },
+    {
+      "id": "2125843375197261824",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T06:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125843375197261824"
+    },
+    {
+      "id": "2125841335637250048",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T06:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125841335637250048"
+    },
+    {
+      "id": "2125839607944712192",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-ha-dualstack-dhcp-install",
+      "brief_name": "e2e-agent-ha-dualstack-dhcp-install",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:30:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-ha-dualstack-dhcp-install/2125839607944712192"
+    },
+    {
+      "id": "2125838120258637824",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:24:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-common-claim/2125838120258637824"
+    },
+    {
+      "id": "2125835828428017664",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T06:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125835828428017664"
+    },
+    {
+      "id": "2125833785634197504",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T06:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125833785634197504"
+    },
+    {
+      "id": "2125832223302094848",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T06:00:39Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125832223302094848"
+    },
+    {
+      "id": "2125832206520684544",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-compact-fips-install",
+      "brief_name": "e2e-agent-compact-fips-install",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:00:37Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-compact-fips-install/2125832206520684544"
+    },
+    {
+      "id": "2125832192255856640",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T06:00:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125832192255856640"
+    },
+    {
+      "id": "2125832162061062144",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-fips-ovn-remote-s2s-libvirt-multi-p-p",
+      "brief_name": "ocp-fips-ovn-remote-s2s-libvirt-multi-p-p",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T06:00:34Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step upi-libvirt-cleanup-post",
+        "Run multi-stage step upi-libvirt-cleanup-pre",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-fips-ovn-remote-s2s-libvirt-multi-p-p/2125832162061062144"
+    },
+    {
+      "id": "2125832159544479744",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-fips-ovn-remote-libvirt-multi-z-z",
+      "brief_name": "ocp-fips-ovn-remote-libvirt-multi-z-z",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T06:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network pod connected to UserDefinedNetwork cannot be deleted when being used [Suite:openshift/conformance/parallel]",
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should delete NetworkAttachmentDefinition when UserDefinedNetwork is deleted [Suite:openshift/conformance/parallel]",
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should create NetworkAttachmentDefinition according to spec [Suite:openshift/conformance/parallel]",
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-fips-ovn-remote-libvirt-multi-z-z/2125832159544479744"
+    },
+    {
+      "id": "2125830262540472320",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-ipv6-degraded",
+      "brief_name": "e2e-metal-ovn-two-node-fencing-ipv6-degraded",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T05:53:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 11,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
+        "verify all nodes should be ready",
+        "[sig-node] Pods Extended (pod generation) Pod Generation pod rejected by kubelet should have updated generation and observedGeneration",
+        "verify node count should match or exceed machine count",
+        "verify the cluster readiness and stability",
+        "verify operator conditions etcd",
+        "[Jira:Node][sig-node] Node non-cnv swap configuration should have correct default kubelet swap settings with worker nodes failSwapOn=false, control plane nodes failSwapOn=true, and both swapBehavior=NoSwap [OCP-86394] [Suite:openshift/conformance/parallel]",
+        "[sig-sippy] openshift-tests should work",
+        "[Jira:\"Cloud Credential Operator\"] Cluster_Operator CCO is enabled [Suite:cco/conformance/parallel][PolarionID:88196] NonHyperShiftHOST-High-CCO metrics endpoint validation",
+        "[sig-node][Late] CRI-O goroutine dump via SIGUSR1 should contain no stuck image pulls on any node [Suite:openshift/conformance/parallel]",
+        "Run multi-stage step baremetalds-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-ipv6-degraded/2125830262540472320"
+    },
+    {
+      "id": "2125830184018907136",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T05:52:59Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-common-claim/2125830184018907136"
+    },
+    {
+      "id": "2125828500416892928",
+      "job": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-vsphere-techpreview",
+      "brief_name": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-vsphere-techpreview",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T05:46:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-vsphere-techpreview/2125828500416892928"
+    },
+    {
+      "id": "2125828290223542272",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T05:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125828290223542272"
+    },
+    {
+      "id": "2125826236063158272",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T05:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125826236063158272"
+    },
+    {
+      "id": "2125825770575106048",
+      "job": "periodic-ci-openshift-cluster-authentication-operator-release-4.22-periodics-e2e-vsphere-external-oidc-revertoauth",
+      "brief_name": "periodic-ci-openshift-cluster-authentication-operator-release-4.22-periodics-e2e-vsphere-external-oidc-revertoauth",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T05:35:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-authentication-operator-release-4.22-periodics-e2e-vsphere-external-oidc-revertoauth/2125825770575106048"
+    },
+    {
+      "id": "2125824510601990144",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T05:30:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125824510601990144"
+    },
+    {
+      "id": "2125822712579362816",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-ipv6",
+      "brief_name": "e2e-metal-ovn-two-node-fencing-ipv6",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T05:23:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-ipv6/2125822712579362816"
+    },
+    {
+      "id": "2125821705858322432",
+      "job": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-metal-techpreview-ipv4-ipi",
+      "brief_name": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-metal-techpreview-ipv4-ipi",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T05:19:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 8,
+      "failed_test_names": [
+        "Run multi-stage step baremetal-lab-post-dhcp-pxe-conf",
+        "Run multi-stage step baremetal-lab-ipi-deprovision",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step baremetal-lab-pre-reserve-nodes",
+        "Run multi-stage step baremetal-lab-post-load-balancer",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetal-lab-post-dns",
+        "Run multi-stage step baremetal-lab-post-release-nodes"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-metal-techpreview-ipv4-ipi/2125821705858322432"
+    },
+    {
+      "id": "2125820723820761088",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T05:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125820723820761088"
+    },
+    {
+      "id": "2125818685653258240",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T05:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125818685653258240"
+    },
+    {
+      "id": "2125817153796968448",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T05:00:41Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125817153796968448"
+    },
+    {
+      "id": "2125817131978199040",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T05:00:40Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125817131978199040"
+    },
+    {
+      "id": "2125817106820763648",
+      "job": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-e2e-test-hcp-aws-periodic",
+      "brief_name": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-e2e-test-hcp-aws-periodic",
+      "cluster": "build05",
+      "timestamp": "2026-11-26T05:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-e2e-test-hcp-aws-periodic/2125817106820763648"
+    },
+    {
+      "id": "2125817047291006976",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-update-versions-releases",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-update-versions-releases",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T05:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-update-versions-releases/2125817047291006976"
+    },
+    {
+      "id": "2125817045579730944",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-publish-release-notes",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-publish-release-notes",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T05:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-publish-release-notes/2125817045579730944"
+    },
+    {
+      "id": "2125816420687155200",
+      "job": "periodic-ci-openshift-operator-framework-olm-release-4.22-periodics-e2e-aws-ovn-fips-techpreview-extended-f1",
+      "brief_name": "periodic-ci-openshift-operator-framework-olm-release-4.22-periodics-e2e-aws-ovn-fips-techpreview-extended-f1",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:58:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-operator][Jira:OLM] OLMv0 within a namespace PolarionID:27680-[OTP][Skipped:Disconnected]OLM Bundle support for Prometheus Types [Serial]",
+        "[sig-operator][Jira:OLM] OLMv0 within a namespace PolarionID:68521-[OTP][Skipped:Disconnected]Check failureThreshold of redhat-operators catalog",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-operator-framework-olm-release-4.22-periodics-e2e-aws-ovn-fips-techpreview-extended-f1/2125816420687155200"
+    },
+    {
+      "id": "2125815699157815296",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:55:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim/2125815699157815296"
+    },
+    {
+      "id": "2125813169166225408",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:45:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125813169166225408"
+    },
+    {
+      "id": "2125812142580961280",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-validation",
+      "brief_name": "e2e-metal-ovn-two-node-fencing-validation",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:41:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-fencing-validation/2125812142580961280"
+    },
+    {
+      "id": "2125811941946429440",
+      "job": "periodic-ci-openshift-operator-framework-operator-controller-release-4.22-periodics-default-catalog-consistency",
+      "brief_name": "periodic-ci-openshift-operator-framework-operator-controller-release-4.22-periodics-default-catalog-consistency",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T04:40:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-operator-framework-operator-controller-release-4.22-periodics-default-catalog-consistency/2125811941946429440"
+    },
+    {
+      "id": "2125811935227154432",
+      "job": "periodic-ci-openshift-insights-operator-release-4.22-periodics-insights-operator-e2e-tests-periodic",
+      "brief_name": "periodic-ci-openshift-insights-operator-release-4.22-periodics-insights-operator-e2e-tests-periodic",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T04:40:27Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 2,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.22-periodics-insights-operator-e2e-tests-periodic/2125811935227154432"
+    },
+    {
+      "id": "2125811933545238528",
+      "job": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-gcp-ovn-techpreview",
+      "brief_name": "periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-gcp-ovn-techpreview",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T04:40:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-insights-operator-release-4.22-periodics-e2e-gcp-ovn-techpreview/2125811933545238528"
+    },
+    {
+      "id": "2125811918441549824",
+      "job": "periodic-ci-openshift-gcp-filestore-csi-driver-operator-release-4.22-periodics-periodic-e2e-gcp-filestore-csi",
+      "brief_name": "periodic-ci-openshift-gcp-filestore-csi-driver-operator-release-4.22-periodics-periodic-e2e-gcp-filestore-csi",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T04:40:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-gcp-filestore-csi-driver-operator-release-4.22-periodics-periodic-e2e-gcp-filestore-csi/2125811918441549824"
+    },
+    {
+      "id": "2125811902503194624",
+      "job": "periodic-ci-openshift-csi-operator-release-4.22-periodics-periodic-e2e-aws-efs-csi",
+      "brief_name": "periodic-ci-openshift-csi-operator-release-4.22-periodics-periodic-e2e-aws-efs-csi",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T04:40:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-csi-operator-release-4.22-periodics-periodic-e2e-aws-efs-csi/2125811902503194624"
+    },
+    {
+      "id": "2125811891157602304",
+      "job": "periodic-ci-openshift-cluster-node-tuning-operator-release-4.22-periodics-e2e-nightly",
+      "brief_name": "periodic-ci-openshift-cluster-node-tuning-operator-release-4.22-periodics-e2e-nightly",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:40:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cluster-node-tuning-operator-release-4.22-periodics-e2e-nightly/2125811891157602304"
+    },
+    {
+      "id": "2125811135960584192",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:37:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125811135960584192"
+    },
+    {
+      "id": "2125809625998561280",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-rhcos10-techpreview-serial",
+      "brief_name": "e2e-vsphere-ovn-rhcos10-techpreview-serial",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T04:31:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Job run should complete before timeout",
+        "Run multi-stage step openshift-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-rhcos10-techpreview-serial/2125809625998561280"
+    },
+    {
+      "id": "2125809426207084544",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:30:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125809426207084544"
+    },
+    {
+      "id": "2125809401032871936",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-tests-bootc-c2cc-nightly",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-tests-bootc-c2cc-nightly",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:30:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-tests-bootc-c2cc-nightly/2125809401032871936"
+    },
+    {
+      "id": "2125809397685817344",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-tests-bootc-c2cc-arm-nightly",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-tests-bootc-c2cc-arm-nightly",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:30:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-tests-bootc-c2cc-arm-nightly/2125809397685817344"
+    },
+    {
+      "id": "2125809395152457728",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-mce-e2e-ibmz-s390x-mgmt-ovn-openshifte2e-virt",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-mce-e2e-ibmz-s390x-mgmt-ovn-openshifte2e-virt",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:30:26Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "Run multi-stage step destroy",
+        "Run multi-stage step hypershift-mce-ibmz-destroy-s390x-mgmt",
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step hypershift-mce-ibmz-create-s390xmgmt"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-mce-e2e-ibmz-s390x-mgmt-ovn-openshifte2e-virt/2125809395152457728"
+    },
+    {
+      "id": "2125808888577003520",
+      "job": "periodic-ci-openshift-kni-eco-ci-cd-main-cnf-ran-two-sno-4.22-cnf-ran-ztp-tests",
+      "brief_name": "periodic-ci-openshift-kni-eco-ci-cd-main-cnf-ran-two-sno-4.22-cnf-ran-ztp-tests",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T04:28:29Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step XXXXXXXXX-functional-cnf-ran-deploy-spoke-sno"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-kni-eco-ci-cd-main-cnf-ran-two-sno-4.22-cnf-ran-ztp-tests/2125808888577003520"
+    },
+    {
+      "id": "2125805630743646208",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125805630743646208"
+    },
+    {
+      "id": "2125804697779441664",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:11:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.22-cvp-fips-common-claim/2125804697779441664"
+    },
+    {
+      "id": "2125804341158744064",
+      "job": "periodic-ci-openshift-lightspeed-service-main-4.22-e2e-ols-cluster-periodics",
+      "brief_name": "periodic-ci-openshift-lightspeed-service-main-4.22-e2e-ols-cluster-periodics",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T04:10:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step e2e"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.22-e2e-ols-cluster-periodics/2125804341158744064"
+    },
+    {
+      "id": "2125803604622184448",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:07:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-health/2125803604622184448"
+    },
+    {
+      "id": "2125802321303572480",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-ho-upgrade-rosa-hcp-ho-upgrade-staging",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-ho-upgrade-rosa-hcp-ho-upgrade-staging",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:01:04Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-ho-upgrade-rosa-hcp-ho-upgrade-staging/2125802321303572480"
+    },
+    {
+      "id": "2125802220657053696",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv6-techpreview-2of2",
+      "brief_name": "e2e-metal-ipi-serial-ovn-ipv6-techpreview-2of2",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:00:56Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv6-techpreview-2of2/2125802220657053696"
+    },
+    {
+      "id": "2125802218119499776",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv6-techpreview-1of2",
+      "brief_name": "e2e-metal-ipi-serial-ovn-ipv6-techpreview-1of2",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:00:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv6-techpreview-1of2/2125802218119499776"
+    },
+    {
+      "id": "2125802215619694592",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv4-techpreview-2of2",
+      "brief_name": "e2e-metal-ipi-serial-ovn-ipv4-techpreview-2of2",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:00:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv4-techpreview-2of2/2125802215619694592"
+    },
+    {
+      "id": "2125802213925195776",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv4-techpreview-1of2",
+      "brief_name": "e2e-metal-ipi-serial-ovn-ipv4-techpreview-1of2",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:00:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-ipv4-techpreview-1of2/2125802213925195776"
+    },
+    {
+      "id": "2125802211530248192",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-dualstack-techpreview-2of2",
+      "brief_name": "e2e-metal-ipi-serial-ovn-dualstack-techpreview-2of2",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:00:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-dualstack-techpreview-2of2/2125802211530248192"
+    },
+    {
+      "id": "2125802210028687360",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-dualstack-techpreview-1of2",
+      "brief_name": "e2e-metal-ipi-serial-ovn-dualstack-techpreview-1of2",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:00:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ipi-serial-ovn-dualstack-techpreview-1of2/2125802210028687360"
+    },
+    {
+      "id": "2125802152973570048",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-dualstack-bgp-local-gw",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-dualstack-bgp-local-gw",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T04:00:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-dualstack-bgp-local-gw/2125802152973570048"
+    },
+    {
+      "id": "2125802150167580672",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-dualstack-bgp",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-dualstack-bgp",
+      "cluster": "build09",
+      "timestamp": "2026-11-26T04:00:50Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "[sig-network] Services should support externalTrafficPolicy=Local for type=NodePort",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetalds-e2e-test",
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-e2e-metal-ipi-ovn-dualstack-bgp/2125802150167580672"
+    },
+    {
+      "id": "2125802147663581184",
+      "job": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "brief_name": "periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T04:00:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-ovn-kubernetes-release-4.22-periodics-branch-sync/2125802147663581184"
+    },
+    {
+      "id": "2125802066759651328",
+      "job": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-virt-nokdm-e2e-test-aws-periodic",
+      "brief_name": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-virt-nokdm-e2e-test-aws-periodic",
+      "cluster": "build05",
+      "timestamp": "2026-11-26T04:00:43Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-virt-nokdm-e2e-test-aws-periodic/2125802066759651328"
+    },
+    {
+      "id": "2125802064033353728",
+      "job": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-virt-kdm-e2e-test-aws-periodic",
+      "brief_name": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-virt-kdm-e2e-test-aws-periodic",
+      "cluster": "build05",
+      "timestamp": "2026-11-26T04:00:43Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-virt-kdm-e2e-test-aws-periodic/2125802064033353728"
+    },
+    {
+      "id": "2125802062103973888",
+      "job": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-e2e-test-aws-periodic",
+      "brief_name": "periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-e2e-test-aws-periodic",
+      "cluster": "build05",
+      "timestamp": "2026-11-26T04:00:43Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-oadp-operator-oadp-1.6-4.22-e2e-test-aws-periodic/2125802062103973888"
+    },
+    {
+      "id": "2125802037772816384",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-powervs-capi-multi-p-p",
+      "brief_name": "ocp-e2e-ovn-powervs-capi-multi-p-p",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T04:00:41Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Job run should complete before timeout",
+        "Run multi-stage step openshift-e2e-libvirt-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-powervs-capi-multi-p-p/2125802037772816384"
+    },
+    {
+      "id": "2125802036099289088",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-powervc-multi-p-p",
+      "brief_name": "ocp-e2e-ovn-powervc-multi-p-p",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T04:00:40Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 4,
+      "failed_test_names": [
+        "Run multi-stage step ipi-conf-XXXXXXX",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step ipi-deprovision-deprovision-XXXXXXX-deprovision",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.22-ocp-e2e-ovn-powervc-multi-p-p/2125802036099289088"
+    },
+    {
+      "id": "2125802007578021888",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-rebase-on-nightlies",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-rebase-on-nightlies",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-rebase-on-nightlies/2125802007578021888"
+    },
+    {
+      "id": "2125802005040467968",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-ovn-ocp-conformance-serial",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-ovn-ocp-conformance-serial",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-ovn-ocp-conformance-serial/2125802005040467968"
+    },
+    {
+      "id": "2125802002549051392",
+      "job": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-ovn-ocp-conformance",
+      "brief_name": "periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-ovn-ocp-conformance",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:00:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-microshift-release-4.22-periodics-e2e-aws-ovn-ocp-conformance/2125802002549051392"
+    },
+    {
+      "id": "2125801948849377280",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-kubevirt-aws-ovn-csi",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-kubevirt-aws-ovn-csi",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T04:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-kubevirt-aws-ovn-csi/2125801948849377280"
+    },
+    {
+      "id": "2125801947163267072",
+      "job": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-azure-kubevirt-ovn",
+      "brief_name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-azure-kubevirt-ovn",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T04:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-azure-kubevirt-ovn/2125801947163267072"
+    },
+    {
+      "id": "2125801572783886336",
+      "job": "periodic-ci-openshift-kueue-operator-main-test-e2e-upstream-4-20",
+      "brief_name": "periodic-ci-openshift-kueue-operator-main-test-e2e-upstream-4-20",
+      "cluster": "build12",
+      "timestamp": "2026-11-26T03:59:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-kueue-operator-main-test-e2e-upstream-4-20/2125801572783886336"
+    },
+    {
+      "id": "2125798553321213952",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-arbiter-upgrade",
+      "brief_name": "e2e-metal-ovn-two-node-arbiter-upgrade",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:47:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-ovn-two-node-arbiter-upgrade/2125798553321213952"
+    },
+    {
+      "id": "2125798107336675328",
+      "job": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "brief_name": "periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T03:45:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-online-rosa-e2e-main-rosa-cluster-lease-rosa-cluster-lease-controller/2125798107336675328"
+    },
+    {
+      "id": "2125798104815898624",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-zones-techpreview-serial-2of2",
+      "brief_name": "e2e-vsphere-ovn-zones-techpreview-serial-2of2",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T03:45:28Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[Serial][sig-cli] oc adm upgrade recommend When the update service has conditional recommendations runs successfully when listing all updates [Suite:openshift/conformance/serial]",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-zones-techpreview-serial-2of2/2125798104815898624"
+    },
+    {
+      "id": "2125798101468844032",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-zones-techpreview-serial-1of2",
+      "brief_name": "e2e-vsphere-ovn-zones-techpreview-serial-1of2",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T03:45:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-zones-techpreview-serial-1of2/2125798101468844032"
+    },
+    {
+      "id": "2125797042839097344",
+      "job": "periodic-ci-openshift-cloud-credential-operator-release-4.22-periodics-e2e-aws-manual-oidc",
+      "brief_name": "periodic-ci-openshift-cloud-credential-operator-release-4.22-periodics-e2e-aws-manual-oidc",
+      "cluster": "build01",
+      "timestamp": "2026-11-26T03:41:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-cloud-credential-operator-release-4.22-periodics-e2e-aws-manual-oidc/2125797042839097344"
+    },
+    {
+      "id": "2125796791247966208",
+      "job": "periodic-ci-openshift-assisted-installer-release-ocm-2.17-mirror-nightly-image-controller",
+      "brief_name": "periodic-ci-openshift-assisted-installer-release-ocm-2.17-mirror-nightly-image-controller",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:40:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-release-ocm-2.17-mirror-nightly-image-controller/2125796791247966208"
+    },
+    {
+      "id": "2125795570688724992",
+      "job": "periodic-ci-openshift-kueue-operator-release-1.5-test-e2e-upstream-5-0",
+      "brief_name": "periodic-ci-openshift-kueue-operator-release-1.5-test-e2e-upstream-5-0",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:35:27Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step e2e-kueue-upstream"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-kueue-operator-release-1.5-test-e2e-upstream-5-0/2125795570688724992"
+    },
+    {
+      "id": "2125795568163753984",
+      "job": "periodic-ci-openshift-kueue-operator-release-1.4-test-e2e-downstream-4-21",
+      "brief_name": "periodic-ci-openshift-kueue-operator-release-1.4-test-e2e-downstream-4-21",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:35:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-kueue-operator-release-1.4-test-e2e-downstream-4-21/2125795568163753984"
+    },
+    {
+      "id": "2125794526235725824",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-two-node-fencing-dualstack-certrotation",
+      "brief_name": "e2e-metal-two-node-fencing-dualstack-certrotation",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:31:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-metal-two-node-fencing-dualstack-certrotation/2125794526235725824"
+    },
+    {
+      "id": "2125794355204591616",
+      "job": "periodic-ci-stolostron-policy-collection-main-ocp4.22-upgrade-interop-opp-upgrade-aws",
+      "brief_name": "periodic-ci-stolostron-policy-collection-main-ocp4.22-upgrade-interop-opp-upgrade-aws",
+      "cluster": "build05",
+      "timestamp": "2026-11-26T03:30:30Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step interop-opp-product-upgrade-acm",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step firewatch-report-issues"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-stolostron-policy-collection-main-ocp4.22-upgrade-interop-opp-upgrade-aws/2125794355204591616"
+    },
+    {
+      "id": "2125794338431569920",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-zones-techpreview",
+      "brief_name": "e2e-vsphere-ovn-zones-techpreview",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T03:30:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-zones-techpreview/2125794338431569920"
+    },
+    {
+      "id": "2125794335910793216",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-serial-runc",
+      "brief_name": "e2e-vsphere-ovn-serial-runc",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T03:30:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-vsphere-ovn-serial-runc/2125794335910793216"
+    },
+    {
+      "id": "2125794333390016512",
+      "job": "periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-sno-ipv4-iso-no-registry",
+      "brief_name": "e2e-agent-sno-ipv4-iso-no-registry",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:30:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.22-e2e-agent-sno-ipv4-iso-no-registry/2125794333390016512"
+    }
+  ],
+  "failure_categories": {
+    "infrastructure": 0,
+    "test_failure": 51,
+    "unknown": 149
+  },
+  "top_failing_tests": [
+    {
+      "name": "[sig-sippy] openshift-tests should work",
+      "count": 30
+    },
+    {
+      "name": "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: services on a user defined primary network should be reachable through their cluster IP, node port and load balancer L2 primary UDN with custom network, cluster-networked pods, NodePort service [Suite:openshift/conformance/parallel]",
+      "count": 24
+    },
+    {
+      "name": "[sig-sippy] infrastructure should work",
+      "count": 15
+    },
+    {
+      "name": "Run multi-stage step openshift-e2e-test",
+      "count": 5
+    },
+    {
+      "name": "Run multi-stage step baremetalds-e2e-test",
+      "count": 5
+    },
+    {
+      "name": "Run multi-stage step upi-libvirt-cleanup-pre",
+      "count": 3
+    },
+    {
+      "name": "Run multi-stage step upi-libvirt-cleanup-post",
+      "count": 3
+    },
+    {
+      "name": "Run multi-stage step hypershift-azure-run-e2e",
+      "count": 2
+    },
+    {
+      "name": "TestNodePoolMultiArch",
+      "count": 2
+    },
+    {
+      "name": "TestNodePoolMultiArch/HostedCluster0/Main/TestNodePoolArm64Create",
+      "count": 2
+    },
+    {
+      "name": "TestNodePoolMultiArch/HostedCluster0/Main",
+      "count": 2
+    },
+    {
+      "name": "TestNodePoolMultiArch/HostedCluster0",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step openshift-e2e-libvirt-test",
+      "count": 2
+    },
+    {
+      "name": "[sig-operator][Jira:OLM] OLMv0 within a namespace PolarionID:27680-[OTP][Skipped:Disconnected]OLM Bundle support for Prometheus Types [Serial]",
+      "count": 2
+    },
+    {
+      "name": "[sig-operator][Jira:OLM] OLMv0 within a namespace PolarionID:68521-[OTP][Skipped:Disconnected]Check failureThreshold of redhat-operators catalog",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step e2e",
+      "count": 2
+    },
+    {
+      "name": "verify all nodes should be ready",
+      "count": 2
+    },
+    {
+      "name": "verify the cluster readiness and stability",
+      "count": 2
+    },
+    {
+      "name": "verify operator conditions etcd",
+      "count": 2
+    },
+    {
+      "name": "verify node count should match or exceed machine count",
+      "count": 2
+    },
+    {
+      "name": "Job run should complete before timeout",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step openshift-qe-installer-bm-poweroff",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clusterextension PolarionID:83979-[OTP][Skipped:Disconnected]ClusterExtension installs webhook-operator and webhooks work",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:85889-[OTP][Skipped:Disconnected]Validate catalogd content via port-forward [Serial]",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:69869-[OTP][Skipped:Disconnected]Catalogd Add metrics to the Storage implementation",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:75441-[OTP][Skipped:Disconnected]Catalogd supports compression and jsonlines format",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:69123-[OTP][Skipped:Disconnected]Catalogd clustercatalog offer the operator content through http server",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clusterextension PolarionID:83026-[OTP][Skipped:Disconnected]clusterextension updates sometimes failed with the following error from the CRDUpgradeCheck resource unknown change and refusing to determine that change is safe",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:73219-[OTP][Skipped:Disconnected]Fetch deprecation data from the catalogd http server",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:75218-[OTP][Skipped:Disconnected]Disabling the CRD Upgrade Safety preflight checks",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clustercatalog PolarionID:73289-[OTP][Skipped:Disconnected]Check the deprecation conditions and messages",
+      "count": 1
+    },
+    {
+      "name": "[Jira:\"Test Framework\"] there should not be mass test failures",
+      "count": 1
+    },
+    {
+      "name": "[sig-olmv1][Jira:OLM] clusterextension PolarionID:82136-[OTP][Skipped:Disconnected]olm v1 supports NetworkPolicy resources",
+      "count": 1
+    },
+    {
+      "name": "install should succeed: other",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step baremetalds-devscripts-setup",
+      "count": 1
+    },
+    {
+      "name": "install should succeed: overall",
+      "count": 1
+    },
+    {
+      "name": "[Monitor:legacy-test-framework-invariants-alerts][bz-etcd][invariant] alert/etcdInsufficientMembers should not be at or above info",
+      "count": 1
+    },
+    {
+      "name": "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation: Network Policies on a user defined primary network pods within namespace should be isolated when deny policy is present in L2 dualstack primary UDN [Suite:openshift/conformance/parallel]",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step single-node-e2e-test",
+      "count": 1
+    },
+    {
+      "name": "[Monitor:audit-log-analyzer][sig-api-machinery][Feature:APIServer] API LBs follow /readyz of kube-apiserver and stop sending requests before server shutdowns for external clients",
+      "count": 1
+    },
+    {
+      "name": "[sig-api-machinery] CustomResourcePublishOpenAPI [Privileged:ClusterAdmin] works for multiple CRDs of different groups [Conformance]",
+      "count": 1
+    },
+    {
+      "name": "[sig-auth][Feature:SCC][Early] should not have pod creation failures during install [Suite:openshift/conformance/parallel]",
+      "count": 1
+    },
+    {
+      "name": "[Jira:\"Cloud Credential Operator\"] Cluster_Operator CCO is enabled [Suite:cco/conformance/parallel][OTP][PolarionID:64885][platform:aws] Critical-CCO-based flow for olm managed operators and AWS STS",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step baremetalds-two-node-fencing-post-install-node-degredation",
+      "count": 1
+    },
+    {
+      "name": "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network pod connected to UserDefinedNetwork cannot be deleted when being used [Suite:openshift/conformance/parallel]",
+      "count": 1
+    },
+    {
+      "name": "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should delete NetworkAttachmentDefinition when UserDefinedNetwork is deleted [Suite:openshift/conformance/parallel]",
+      "count": 1
+    },
+    {
+      "name": "[Feature:NetworkSegmentation][ovn-kubernetes-ote][sig-network] Network Segmentation UserDefinedNetwork CRD Controller for L2 secondary network should create NetworkAttachmentDefinition according to spec [Suite:openshift/conformance/parallel]",
+      "count": 1
+    },
+    {
+      "name": "[sig-node] Pods Extended (pod generation) Pod Generation pod rejected by kubelet should have updated generation and observedGeneration",
+      "count": 1
+    },
+    {
+      "name": "[Jira:Node][sig-node] Node non-cnv swap configuration should have correct default kubelet swap settings with worker nodes failSwapOn=false, control plane nodes failSwapOn=true, and both swapBehavior=NoSwap [OCP-86394] [Suite:openshift/conformance/parallel]",
+      "count": 1
+    },
+    {
+      "name": "[Jira:\"Cloud Credential Operator\"] Cluster_Operator CCO is enabled [Suite:cco/conformance/parallel][PolarionID:88196] NonHyperShiftHOST-High-CCO metrics endpoint validation",
+      "count": 1
+    }
+  ],
+  "version": "4.22",
+  "last_updated": "2026-11-26T13:05:53.660554+00:00"
+}

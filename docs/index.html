@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenShift CI Monitor</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <h1 class="header-title">OpenShift CI Monitor</h1>
+      <span class="header-subtitle">Sippy Job Analysis Dashboard</span>
+    </div>
+    <div class="header-right">
+      <span class="health-indicator" id="health-indicator" title="Overall health"></span>
+      <span class="last-updated" id="last-updated">Loading...</span>
+    </div>
+  </header>
+
+  <nav class="version-tabs" id="version-tabs">
+    <button class="version-tab active" data-version="overview">Overview</button>
+  </nav>
+
+  <main class="main-content">
+    <section id="overview-section" class="section">
+      <div class="overview-chart-container">
+        <h2 class="section-title">Pass Rate by Version</h2>
+        <div class="chart-wrapper">
+          <canvas id="overview-bar-chart"></canvas>
+        </div>
+      </div>
+      <div class="overview-table-container">
+        <h2 class="section-title">Version Summary</h2>
+        <table class="data-table overview-table" id="overview-table">
+          <thead>
+            <tr>
+              <th>Version</th>
+              <th>Total Jobs</th>
+              <th>Pass Rate</th>
+              <th>Passing</th>
+              <th>Failing</th>
+              <th>Infra Failures</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="version-section" class="section hidden">
+      <div class="summary-cards" id="summary-cards">
+        <div class="card">
+          <div class="card-icon">📋</div>
+          <div class="card-body">
+            <div class="card-value" id="card-total-jobs">-</div>
+            <div class="card-label">Total Jobs</div>
+            <div class="card-delta" id="card-total-jobs-delta"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">✅</div>
+          <div class="card-body">
+            <div class="card-value" id="card-pass-rate">-</div>
+            <div class="card-label">Pass Rate</div>
+            <div class="card-delta" id="card-pass-rate-delta"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">❌</div>
+          <div class="card-body">
+            <div class="card-value" id="card-failing">-</div>
+            <div class="card-label">Failing Jobs</div>
+            <div class="card-delta" id="card-failing-delta"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔧</div>
+          <div class="card-body">
+            <div class="card-value" id="card-infra">-</div>
+            <div class="card-label">Infra Failures</div>
+            <div class="card-delta" id="card-infra-delta"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label for="filter-status">Status</label>
+          <select id="filter-status">
+            <option value="ALL">All</option>
+            <option value="PASSING">Passing</option>
+            <option value="FAILING">Failing</option>
+            <option value="NEVER_PASSED">Never Passed</option>
+            <option value="NO_RUNS">No Runs</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-trend">Trend</label>
+          <select id="filter-trend">
+            <option value="ALL">All</option>
+            <option value="IMPROVING">Improving</option>
+            <option value="DEGRADING">Degrading</option>
+            <option value="STABLE">Stable</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-platform">Platform</label>
+          <select id="filter-platform">
+            <option value="ALL">All</option>
+          </select>
+        </div>
+        <div class="filter-group filter-search">
+          <label for="filter-search-input">Search</label>
+          <input type="text" id="filter-search-input" placeholder="Filter by job name...">
+        </div>
+        <div class="filter-group">
+          <label for="filter-sort">Sort By</label>
+          <select id="filter-sort">
+            <option value="pass_rate_asc">Pass Rate (Low to High)</option>
+            <option value="pass_rate_desc">Pass Rate (High to Low)</option>
+            <option value="name_asc">Job Name (A-Z)</option>
+            <option value="name_desc">Job Name (Z-A)</option>
+            <option value="duration_desc">Duration (Longest)</option>
+            <option value="runs_desc">Runs (Most)</option>
+            <option value="net_improvement_asc">Net Change (Worst)</option>
+            <option value="net_improvement_desc">Net Change (Best)</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="job-count" id="job-count"></span>
+        </div>
+      </div>
+
+      <div class="job-table-container">
+        <table class="data-table job-table" id="job-table">
+          <thead>
+            <tr>
+              <th data-sort="name_asc">Job Name</th>
+              <th data-sort="status">Status</th>
+              <th data-sort="pass_rate_desc">Pass Rate</th>
+              <th data-sort="runs_desc">Runs</th>
+              <th data-sort="duration_desc">Duration</th>
+              <th data-sort="net_improvement_desc">Trend</th>
+              <th>Last Pass</th>
+              <th>Bugs</th>
+            </tr>
+          </thead>
+          <tbody id="job-table-body"></tbody>
+        </table>
+        <div class="empty-state hidden" id="empty-state">
+          <div class="empty-icon">🔍</div>
+          <div>No jobs match the current filters.</div>
+        </div>
+      </div>
+
+      <div class="failure-analysis-section">
+        <div class="failure-charts-row">
+          <div class="failure-chart-box">
+            <h3 class="section-title">Failure Categories</h3>
+            <div class="chart-wrapper chart-wrapper-small">
+              <canvas id="failure-category-chart"></canvas>
+            </div>
+          </div>
+          <div class="failure-chart-box">
+            <h3 class="section-title">Top Failing Tests</h3>
+            <div class="top-failing-tests" id="top-failing-tests">
+              <div class="empty-state-inline">No data loaded.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trend-section">
+      <h2 class="section-title">Pass Rate Trend (30 Days)</h2>
+      <div class="chart-wrapper">
+        <canvas id="trend-chart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading dashboard data...</div>
+  </div>
+
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

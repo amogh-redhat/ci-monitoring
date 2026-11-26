@@ -1,0 +1,2980 @@
+{
+  "total_failing_runs": 8418,
+  "runs": [
+    {
+      "id": "2125923015991496704",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T12:00:48Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125923015991496704"
+    },
+    {
+      "id": "2125911328806670336",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T11:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125911328806670336"
+    },
+    {
+      "id": "2125901705563344896",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T10:37:02Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125901705563344896"
+    },
+    {
+      "id": "2125896239181467648",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T10:15:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125896239181467648"
+    },
+    {
+      "id": "2125881120464572416",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T09:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125881120464572416"
+    },
+    {
+      "id": "2125866024719880192",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T08:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125866024719880192"
+    },
+    {
+      "id": "2125864740113616896",
+      "job": "periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics",
+      "brief_name": "periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics",
+      "cluster": "build02",
+      "timestamp": "2026-11-26T08:10:25Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 6,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step ipi-install-install",
+        "install should succeed: infrastructure",
+        "Run multi-stage step gather-must-gather",
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: overall"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics/2125864740113616896"
+    },
+    {
+      "id": "2125862546731700224",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T08:00:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125862546731700224"
+    },
+    {
+      "id": "2125860082984947712",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial",
+      "brief_name": "e2e-aws-ovn-serial",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T07:51:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial/2125860082984947712"
+    },
+    {
+      "id": "2125857945194336256",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9",
+      "brief_name": "e2e-vsphere-ovn-csi-vcf9",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T07:43:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9/2125857945194336256"
+    },
+    {
+      "id": "2125855720275447808",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T07:34:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125855720275447808"
+    },
+    {
+      "id": "2125850929226846208",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T07:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125850929226846208"
+    },
+    {
+      "id": "2125846757098131456",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:58:57Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125846757098131456"
+    },
+    {
+      "id": "2125838112780193792",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T06:24:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim/2125838112780193792"
+    },
+    {
+      "id": "2125837057254232064",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-vsphere-zones-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-vsphere-zones-upgrade",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T06:20:25Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "Run multi-stage step ipi-install-install-stableinitial",
+        "install should succeed: configuration",
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: overall",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-vsphere-zones-upgrade/2125837057254232064"
+    },
+    {
+      "id": "2125837057161957376",
+      "job": "periodic-ci-openshift-assisted-image-service-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-image-service-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T06:20:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-image-service-release-ocm-2.12-mirror-nightly-image/2125837057161957376"
+    },
+    {
+      "id": "2125835826737713152",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T06:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125835826737713152"
+    },
+    {
+      "id": "2125835696999501824",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T06:15:00Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125835696999501824"
+    },
+    {
+      "id": "2125830156219060224",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T05:52:58Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim/2125830156219060224"
+    },
+    {
+      "id": "2125821854697394176",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T05:20:00Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax/2125821854697394176"
+    },
+    {
+      "id": "2125821854655451136",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T05:20:00Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125821854655451136"
+    },
+    {
+      "id": "2125821854596730880",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-26T05:20:00Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125821854596730880"
+    },
+    {
+      "id": "2125820721312567296",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T05:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125820721312567296"
+    },
+    {
+      "id": "2125815692493066240",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:55:31Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125815692493066240"
+    },
+    {
+      "id": "2125811890792697856",
+      "job": "periodic-ci-openshift-assisted-installer-agent-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-installer-agent-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:40:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-agent-release-ocm-2.12-mirror-nightly-image/2125811890792697856"
+    },
+    {
+      "id": "2125811505562652672",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan",
+      "brief_name": "fips-payload-scan",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T04:38:52Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan/2125811505562652672"
+    },
+    {
+      "id": "2125811503050264576",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv6",
+      "brief_name": "e2e-metal-ipi-ovn-ipv6",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:38:52Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv6/2125811503050264576"
+    },
+    {
+      "id": "2125811500525293568",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-driver-toolkit",
+      "brief_name": "e2e-aws-driver-toolkit",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T04:38:51Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-driver-toolkit/2125811500525293568"
+    },
+    {
+      "id": "2125811498004516864",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-26T04:38:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade/2125811498004516864"
+    },
+    {
+      "id": "2125811495492128768",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4",
+      "brief_name": "e2e-metal-ipi-ovn-ipv4",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:38:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125811495492128768"
+    },
+    {
+      "id": "2125811492979740672",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade",
+      "brief_name": "e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade/2125811492979740672"
+    },
+    {
+      "id": "2125811491541094400",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial",
+      "brief_name": "e2e-aws-ovn-serial",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T04:38:49Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-storage][Feature:DisableStorageClass][Serial][apigroup:operator.openshift.io] should reconcile the StorageClass when StorageClassState is Managed [Suite:openshift/conformance/serial]"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial/2125811491541094400"
+    },
+    {
+      "id": "2125811491507539968",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade",
+      "brief_name": "e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-26T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade/2125811491507539968"
+    },
+    {
+      "id": "2125811491465596928",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade",
+      "brief_name": "e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade/2125811491465596928"
+    },
+    {
+      "id": "2125807124440158208",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-26T04:21:28Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-network] pods should successfully create sandboxes by adding pod to network",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade/2125807124440158208"
+    },
+    {
+      "id": "2125805627845382144",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T04:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125805627845382144"
+    },
+    {
+      "id": "2125804690997252096",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T04:11:48Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125804690997252096"
+    },
+    {
+      "id": "2125804341020332032",
+      "job": "periodic-ci-openshift-lightspeed-service-main-4.17-e2e-ols-cluster-periodics",
+      "brief_name": "periodic-ci-openshift-lightspeed-service-main-4.17-e2e-ols-cluster-periodics",
+      "cluster": "build13",
+      "timestamp": "2026-11-26T04:10:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step e2e",
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.17-e2e-ols-cluster-periodics/2125804341020332032"
+    },
+    {
+      "id": "2125802284414668800",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T04:01:01Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125802284414668800"
+    },
+    {
+      "id": "2125801989160833024",
+      "job": "periodic-ci-openshift-image-based-install-operator-backplane-2.7-e2e-ibio-periodic",
+      "brief_name": "periodic-ci-openshift-image-based-install-operator-backplane-2.7-e2e-ibio-periodic",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T04:00:37Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-image-based-install-operator-backplane-2.7-e2e-ibio-periodic/2125801989160833024"
+    },
+    {
+      "id": "2125791805323612160",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T03:20:36Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step gather-extra",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125791805323612160"
+    },
+    {
+      "id": "2125790531601567744",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T03:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125790531601567744"
+    },
+    {
+      "id": "2125780199453757440",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T02:34:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125780199453757440"
+    },
+    {
+      "id": "2125775417678761984",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T02:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125775417678761984"
+    },
+    {
+      "id": "2125767617309315072",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T01:44:29Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step gather-extra"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125767617309315072"
+    },
+    {
+      "id": "2125766591772626944",
+      "job": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image-controller",
+      "brief_name": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image-controller",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T01:40:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image-controller/2125766591772626944"
+    },
+    {
+      "id": "2125761558574272512",
+      "job": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T01:20:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image/2125761558574272512"
+    },
+    {
+      "id": "2125760329521565696",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T01:15:27Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125760329521565696"
+    },
+    {
+      "id": "2125755945228177408",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-vsphere-ovn-upgrade",
+      "brief_name": "e2e-vsphere-ovn-upgrade",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T00:57:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-vsphere-ovn-upgrade/2125755945228177408"
+    },
+    {
+      "id": "2125753610082979840",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-gcp-ovn-upgrade",
+      "brief_name": "e2e-gcp-ovn-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-26T00:48:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-gcp-ovn-upgrade/2125753610082979840"
+    },
+    {
+      "id": "2125753610053619712",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-26T00:48:49Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] pods should successfully create sandboxes by other"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade/2125753610053619712"
+    },
+    {
+      "id": "2125753609923596288",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-26T00:48:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade/2125753609923596288"
+    },
+    {
+      "id": "2125752851538907136",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-26T00:45:48Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125752851538907136"
+    },
+    {
+      "id": "2125752247307472896",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9",
+      "brief_name": "e2e-vsphere-ovn-csi-vcf9",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-26T00:43:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9/2125752247307472896"
+    },
+    {
+      "id": "2125745224163528704",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-26T00:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125745224163528704"
+    },
+    {
+      "id": "2125742741764706304",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T00:05:38Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125742741764706304"
+    },
+    {
+      "id": "2125741799883411456",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-26T00:00:54Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125741799883411456"
+    },
+    {
+      "id": "2125740402190323712",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T23:56:20Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125740402190323712"
+    },
+    {
+      "id": "2125733875874271232",
+      "job": "periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-platform-compliance-arm-weekly",
+      "brief_name": "periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-platform-compliance-arm-weekly",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T23:30:24Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step ipi-install-install",
+        "install should succeed: overall",
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: configuration"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-platform-compliance-arm-weekly/2125733875874271232"
+    },
+    {
+      "id": "2125733875844911104",
+      "job": "periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-node-compliance-arm-weekly",
+      "brief_name": "periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-node-compliance-arm-weekly",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T23:30:24Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: overall",
+        "install should succeed: configuration",
+        "Run multi-stage step ipi-install-install"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.17-e2e-aws-openshift-node-compliance-arm-weekly/2125733875844911104"
+    },
+    {
+      "id": "2125730116104359936",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T23:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125730116104359936"
+    },
+    {
+      "id": "2125726155955769344",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T22:59:44Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step optional-operators-subscribe",
+        "Run multi-stage step gather-audit-logs",
+        "Run multi-stage step gather-must-gather"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125726155955769344"
+    },
+    {
+      "id": "2125720169866072064",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T22:35:57Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "Run multi-stage step gather-audit-logs",
+        "Run multi-stage step gather-must-gather",
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step optional-operators-subscribe"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125720169866072064"
+    },
+    {
+      "id": "2125715070766813184",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T22:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125715070766813184"
+    },
+    {
+      "id": "2125704461924962304",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T21:33:31Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125704461924962304"
+    },
+    {
+      "id": "2125703694631571456",
+      "job": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image-el8",
+      "brief_name": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image-el8",
+      "cluster": "build05",
+      "timestamp": "2026-11-25T21:30:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image-el8/2125703694631571456"
+    },
+    {
+      "id": "2125699924283625472",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T21:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125699924283625472"
+    },
+    {
+      "id": "2125698643473207296",
+      "job": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build05",
+      "timestamp": "2026-11-25T21:10:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image/2125698643473207296"
+    },
+    {
+      "id": "2125696248345268224",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-single-node-bm",
+      "brief_name": "telco5g-network-flow-matrix-single-node-bm",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T21:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-single-node-bm/2125696248345268224"
+    },
+    {
+      "id": "2125696245832880128",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-bm",
+      "brief_name": "telco5g-network-flow-matrix-bm",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T21:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "operator conditions authentication"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-bm/2125696245832880128"
+    },
+    {
+      "id": "2125696244167741440",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-metal-ovn-network-flow-matrix-bm",
+      "brief_name": "metal-ovn-network-flow-matrix-bm",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T21:00:33Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-metal-ovn-network-flow-matrix-bm/2125696244167741440"
+    },
+    {
+      "id": "2125696241630187520",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix-single-node",
+      "brief_name": "aws-ovn-network-flow-matrix-single-node",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T21:00:33Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step single-node-e2e-test",
+        "[sig-node] static pods should start after being created",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix-single-node/2125696241630187520"
+    },
+    {
+      "id": "2125696239126188032",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix",
+      "brief_name": "aws-ovn-network-flow-matrix",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T21:00:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix/2125696239126188032"
+    },
+    {
+      "id": "2125690420582158336",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T20:37:44Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125690420582158336"
+    },
+    {
+      "id": "2125684834331267072",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T20:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125684834331267072"
+    },
+    {
+      "id": "2125681175795077120",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T20:00:35Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125681175795077120"
+    },
+    {
+      "id": "2125679926832009216",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T19:56:02Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-common-claim/2125679926832009216"
+    },
+    {
+      "id": "2125671967439720448",
+      "job": "periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn",
+      "brief_name": "periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn",
+      "cluster": "build08",
+      "timestamp": "2026-11-25T19:24:24Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 6,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step gather-azure-cli",
+        "Run multi-stage step ipi-conf-azure",
+        "install should succeed: overall",
+        "install should succeed: pre configuration"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn/2125671967439720448"
+    },
+    {
+      "id": "2125669722530779136",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T19:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125669722530779136"
+    },
+    {
+      "id": "2125665659806289920",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4",
+      "brief_name": "e2e-metal-ipi-ovn-ipv4",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T18:58:49Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step ofcir-release"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125665659806289920"
+    },
+    {
+      "id": "2125655357878439936",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-arm64",
+      "brief_name": "ocp-e2e-aws-ovn-arm64",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T18:18:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-arm64/2125655357878439936"
+    },
+    {
+      "id": "2125654621144748032",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T18:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125654621144748032"
+    },
+    {
+      "id": "2125642441708015616",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T17:27:05Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125642441708015616"
+    },
+    {
+      "id": "2125642441666072576",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T17:27:05Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-auth][Feature:ProjectAPI]  TestProjectWatch should succeed [apigroup:project.openshift.io][apigroup:authorization.openshift.io][apigroup:user.openshift.io] [Suite:openshift/conformance/parallel]",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125642441666072576"
+    },
+    {
+      "id": "2125642441628323840",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T17:27:05Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax/2125642441628323840"
+    },
+    {
+      "id": "2125639552512036864",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T17:15:28Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125639552512036864"
+    },
+    {
+      "id": "2125637965748113408",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T17:09:06Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125637965748113408"
+    },
+    {
+      "id": "2125637827906506752",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T17:08:45Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125637827906506752"
+    },
+    {
+      "id": "2125637735308857344",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T17:08:23Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125637735308857344"
+    },
+    {
+      "id": "2125630414360940544",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-25T16:39:12Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade/2125630414360940544"
+    },
+    {
+      "id": "2125630411848552448",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade",
+      "brief_name": "e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-25T16:39:11Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade/2125630411848552448"
+    },
+    {
+      "id": "2125630409327775744",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan",
+      "brief_name": "fips-payload-scan",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T16:39:10Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan/2125630409327775744"
+    },
+    {
+      "id": "2125630403464138752",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv6",
+      "brief_name": "e2e-metal-ipi-ovn-ipv6",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T16:39:10Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv6/2125630403464138752"
+    },
+    {
+      "id": "2125630383323090944",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-driver-toolkit",
+      "brief_name": "e2e-aws-driver-toolkit",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T16:39:09Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-driver-toolkit/2125630383323090944"
+    },
+    {
+      "id": "2125630380802314240",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade",
+      "brief_name": "e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T16:39:09Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade/2125630380802314240"
+    },
+    {
+      "id": "2125630378289926144",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial",
+      "brief_name": "e2e-aws-ovn-serial",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T16:39:08Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial/2125630378289926144"
+    },
+    {
+      "id": "2125630375806898176",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade",
+      "brief_name": "e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T16:39:07Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade/2125630375806898176"
+    },
+    {
+      "id": "2125630373273538560",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4",
+      "brief_name": "e2e-metal-ipi-ovn-ipv4",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T16:39:07Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 7,
+      "failed_test_names": [
+        "[sig-network] can collect host-to-service poller pod logs",
+        "[sig-network] can collect host-to-host poller pod logs",
+        "[sig-network] can collect pod-to-service poller pod logs",
+        "[sig-network] can collect pod-to-host poller pod logs",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step baremetalds-e2e-test",
+        "[Jira:\"Network / ovn-kubernetes\"] monitor test pod-network-avalibility setup"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125630373273538560"
+    },
+    {
+      "id": "2125629288328728576",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-25T16:34:49Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[sig-api-machinery] disruption/kube-api connection/reused should be available throughout the test",
+        "[sig-sippy] openshift-tests should work",
+        "[bz-etcd] pathological event should not see excessive RequiredInstallerResourcesMissing secrets",
+        "[sig-network] pods should successfully create sandboxes by adding pod to network",
+        "Run multi-stage step openshift-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade/2125629288328728576"
+    },
+    {
+      "id": "2125628346011226112",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T16:31:04Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade/2125628346011226112"
+    },
+    {
+      "id": "2125628196794667008",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-gcp-ovn-multi-x-ax",
+      "brief_name": "upgrade-from-stable-4.16-ocp-e2e-upgrade-gcp-ovn-multi-x-ax",
+      "cluster": "build13",
+      "timestamp": "2026-11-25T16:30:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] pods should successfully create sandboxes by other"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-gcp-ovn-multi-x-ax/2125628196794667008"
+    },
+    {
+      "id": "2125624430229983232",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T16:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125624430229983232"
+    },
+    {
+      "id": "2125620796251443200",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T16:00:35Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125620796251443200"
+    },
+    {
+      "id": "2125620728299524096",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-gcp-ovn-multi-a-a",
+      "brief_name": "upgrade-from-stable-4.16-ocp-e2e-upgrade-gcp-ovn-multi-a-a",
+      "cluster": "build13",
+      "timestamp": "2026-11-25T16:00:31Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-gcp-ovn-multi-a-a/2125620728299524096"
+    },
+    {
+      "id": "2125613103805632512",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-azure-ovn-multi-a-a",
+      "brief_name": "upgrade-from-stable-4.16-ocp-e2e-upgrade-azure-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T15:30:25Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-api-machinery] disruption/kube-api connection/new should be available throughout the test",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-azure-ovn-multi-a-a/2125613103805632512"
+    },
+    {
+      "id": "2125609336867655680",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T15:15:26Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step release-qe-tests",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125609336867655680"
+    },
+    {
+      "id": "2125605726104588288",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-azure-ovn-multi-x-ax",
+      "brief_name": "upgrade-from-stable-4.16-ocp-e2e-upgrade-azure-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T15:00:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-upgrade-azure-ovn-multi-x-ax/2125605726104588288"
+    },
+    {
+      "id": "2125600596168806400",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T14:40:48Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125600596168806400"
+    },
+    {
+      "id": "2125600384587141120",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T14:39:58Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125600384587141120"
+    },
+    {
+      "id": "2125598042089328640",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-aws-ovn-upgrade-multi-x-ax",
+      "brief_name": "upgrade-from-stable-4.16-ocp-e2e-aws-ovn-upgrade-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T14:30:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-upgrade-from-stable-4.16-ocp-e2e-aws-ovn-upgrade-multi-x-ax/2125598042089328640"
+    },
+    {
+      "id": "2125594274094387200",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T14:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125594274094387200"
+    },
+    {
+      "id": "2125584600255172608",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T13:36:55Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125584600255172608"
+    },
+    {
+      "id": "2125584429765103616",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T13:36:25Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125584429765103616"
+    },
+    {
+      "id": "2125584275888672768",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T13:35:57Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125584275888672768"
+    },
+    {
+      "id": "2125579137442648064",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T13:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125579137442648064"
+    },
+    {
+      "id": "2125576012153491456",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T13:02:38Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125576012153491456"
+    },
+    {
+      "id": "2125575824244477952",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T13:01:55Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125575824244477952"
+    },
+    {
+      "id": "2125575626369798144",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T13:01:35Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125575626369798144"
+    },
+    {
+      "id": "2125572457053032448",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-gcp-ovn-upgrade",
+      "brief_name": "e2e-gcp-ovn-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-25T12:48:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-gcp-ovn-upgrade/2125572457053032448"
+    },
+    {
+      "id": "2125572454544838656",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-25T12:48:50Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-network] pods should successfully create sandboxes by writing network status",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade/2125572454544838656"
+    },
+    {
+      "id": "2125572437759234048",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T12:48:49Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-network] pods should successfully create sandboxes by writing network status"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade/2125572437759234048"
+    },
+    {
+      "id": "2125564023226241024",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T12:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125564023226241024"
+    },
+    {
+      "id": "2125560484785557504",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T12:00:43Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125560484785557504"
+    },
+    {
+      "id": "2125552396137402368",
+      "job": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "brief_name": "periodic-ci-openshift-release-tests-main-image-consistency-check",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T11:29:08Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-image-consistency-check/2125552396137402368"
+    },
+    {
+      "id": "2125548928593039360",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T11:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125548928593039360"
+    },
+    {
+      "id": "2125533840628781056",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T10:15:26Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step release-qe-tests",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125533840628781056"
+    },
+    {
+      "id": "2125518721496649728",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T09:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125518721496649728"
+    },
+    {
+      "id": "2125503629711380480",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T08:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125503629711380480"
+    },
+    {
+      "id": "2125502347646865408",
+      "job": "periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics",
+      "brief_name": "periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics",
+      "cluster": "build02",
+      "timestamp": "2026-11-25T08:10:24Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 6,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step ipi-install-install",
+        "Run multi-stage step gather-must-gather",
+        "install should succeed: overall",
+        "install should succeed: infrastructure",
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.17-ols-disconnected-periodics/2125502347646865408"
+    },
+    {
+      "id": "2125500185965498368",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T08:00:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125500185965498368"
+    },
+    {
+      "id": "2125495552836636672",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9",
+      "brief_name": "e2e-vsphere-ovn-csi-vcf9",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-25T07:43:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9/2125495552836636672"
+    },
+    {
+      "id": "2125488532255412224",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T07:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125488532255412224"
+    },
+    {
+      "id": "2125485182499688448",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4",
+      "brief_name": "e2e-metal-ipi-ovn-ipv4",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T07:02:11Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125485182499688448"
+    },
+    {
+      "id": "2125474664804257792",
+      "job": "periodic-ci-openshift-assisted-image-service-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-image-service-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T06:20:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-image-service-release-ocm-2.12-mirror-nightly-image/2125474664804257792"
+    },
+    {
+      "id": "2125473430772912128",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T06:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125473430772912128"
+    },
+    {
+      "id": "2125469489385443328",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan",
+      "brief_name": "fips-payload-scan",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T05:59:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan/2125469489385443328"
+    },
+    {
+      "id": "2125458873446830080",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T05:17:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax/2125458873446830080"
+    },
+    {
+      "id": "2125458871748136960",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T05:17:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125458871748136960"
+    },
+    {
+      "id": "2125458869265108992",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-25T05:17:36Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-api-machinery] ValidatingAdmissionPolicy [Privileged:ClusterAdmin] should type check a CRD [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125458869265108992"
+    },
+    {
+      "id": "2125458327046459392",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T05:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125458327046459392"
+    },
+    {
+      "id": "2125449510678171648",
+      "job": "periodic-ci-openshift-assisted-installer-agent-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-installer-agent-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T04:40:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-agent-release-ocm-2.12-mirror-nightly-image/2125449510678171648"
+    },
+    {
+      "id": "2125449131001384960",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4",
+      "brief_name": "e2e-metal-ipi-ovn-ipv4",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T04:38:51Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-api-machinery] ValidatingAdmissionPolicy [Privileged:ClusterAdmin] should type check a CRD [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "Run multi-stage step baremetalds-e2e-test",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv4/2125449131001384960"
+    },
+    {
+      "id": "2125449110000504832",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv6",
+      "brief_name": "e2e-metal-ipi-ovn-ipv6",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T04:38:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-metal-ipi-ovn-ipv6/2125449110000504832"
+    },
+    {
+      "id": "2125449108360531968",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-driver-toolkit",
+      "brief_name": "e2e-aws-driver-toolkit",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-driver-toolkit/2125449108360531968"
+    },
+    {
+      "id": "2125449105814589440",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade",
+      "brief_name": "e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade/2125449105814589440"
+    },
+    {
+      "id": "2125449102765330432",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade",
+      "brief_name": "e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade/2125449102765330432"
+    },
+    {
+      "id": "2125449102756941824",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial",
+      "brief_name": "e2e-aws-ovn-serial",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-aws-ovn-serial/2125449102756941824"
+    },
+    {
+      "id": "2125449102694027264",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade",
+      "brief_name": "e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-aws-ovn-upgrade/2125449102694027264"
+    },
+    {
+      "id": "2125449102626918400",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade/2125449102626918400"
+    },
+    {
+      "id": "2125449102480117760",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan",
+      "brief_name": "fips-payload-scan",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T04:38:49Z",
+      "overall_result": "N",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
+        "Run multi-stage step ipi-install-install",
+        "install should succeed: overall",
+        "install should succeed: infrastructure"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-fips-payload-scan/2125449102480117760"
+    },
+    {
+      "id": "2125443228529332224",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T04:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125443228529332224"
+    },
+    {
+      "id": "2125441949287583744",
+      "job": "periodic-ci-openshift-lightspeed-service-main-4.17-e2e-ols-cluster-periodics",
+      "brief_name": "periodic-ci-openshift-lightspeed-service-main-4.17-e2e-ols-cluster-periodics",
+      "cluster": "build13",
+      "timestamp": "2026-11-25T04:10:24Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step e2e",
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-lightspeed-service-main-4.17-e2e-ols-cluster-periodics/2125441949287583744"
+    },
+    {
+      "id": "2125439899388612608",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T04:00:59Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125439899388612608"
+    },
+    {
+      "id": "2125439607448276992",
+      "job": "periodic-ci-openshift-image-based-install-operator-backplane-2.7-e2e-ibio-periodic",
+      "brief_name": "periodic-ci-openshift-image-based-install-operator-backplane-2.7-e2e-ibio-periodic",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T04:00:36Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-image-based-install-operator-backplane-2.7-e2e-ibio-periodic/2125439607448276992"
+    },
+    {
+      "id": "2125428131941584896",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T03:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125428131941584896"
+    },
+    {
+      "id": "2125413023144218624",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T02:15:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125413023144218624"
+    },
+    {
+      "id": "2125404199796609024",
+      "job": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image-controller",
+      "brief_name": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image-controller",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T01:40:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image-controller/2125404199796609024"
+    },
+    {
+      "id": "2125399166577283072",
+      "job": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build10",
+      "timestamp": "2026-11-25T01:20:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-installer-release-ocm-2.12-mirror-nightly-image/2125399166577283072"
+    },
+    {
+      "id": "2125397934877970432",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T01:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125397934877970432"
+    },
+    {
+      "id": "2125393378555203584",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-vsphere-ovn-upgrade",
+      "brief_name": "e2e-vsphere-ovn-upgrade",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-25T00:57:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-vsphere-ovn-upgrade/2125393378555203584"
+    },
+    {
+      "id": "2125391227393150976",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-aws-ovn-upgrade",
+      "cluster": "build03",
+      "timestamp": "2026-11-25T00:48:50Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-aws-ovn-upgrade/2125391227393150976"
+    },
+    {
+      "id": "2125391224884957184",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-gcp-ovn-upgrade",
+      "brief_name": "e2e-gcp-ovn-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-25T00:48:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-gcp-ovn-upgrade/2125391224884957184"
+    },
+    {
+      "id": "2125391222376763392",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-25T00:48:49Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-azure-ovn-upgrade/2125391222376763392"
+    },
+    {
+      "id": "2125389855214014464",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9",
+      "brief_name": "e2e-vsphere-ovn-csi-vcf9",
+      "cluster": "vsphere02",
+      "timestamp": "2026-11-25T00:43:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-e2e-vsphere-ovn-csi-vcf9/2125389855214014464"
+    },
+    {
+      "id": "2125382833760374784",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-25T00:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125382833760374784"
+    },
+    {
+      "id": "2125379402857451520",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-25T00:00:55Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125379402857451520"
+    },
+    {
+      "id": "2125367723188817920",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-24T23:15:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125367723188817920"
+    },
+    {
+      "id": "2125364071640338432",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-metal-ipi-ovn-upgrade-network-flow-matrix",
+      "brief_name": "upgrade-from-stable-4.16-e2e-metal-ipi-ovn-upgrade-network-flow-matrix",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T23:00:34Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] pods should successfully create sandboxes by other",
+        "Run multi-stage step baremetalds-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-metal-ipi-ovn-upgrade-network-flow-matrix/2125364071640338432"
+    },
+    {
+      "id": "2125364069958422528",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-aws-upgrade-ovn-single-node-network-flow-matrix",
+      "brief_name": "upgrade-from-stable-4.16-e2e-aws-upgrade-ovn-single-node-network-flow-matrix",
+      "cluster": "build03",
+      "timestamp": "2026-11-24T23:00:34Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 2,
+      "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step single-node-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-upgrade-from-stable-4.16-e2e-aws-upgrade-ovn-single-node-network-flow-matrix/2125364069958422528"
+    },
+    {
+      "id": "2125352647090245632",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-24T22:15:26Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125352647090245632"
+    },
+    {
+      "id": "2125341301309181952",
+      "job": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image-el8",
+      "brief_name": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image-el8",
+      "cluster": "build05",
+      "timestamp": "2026-11-24T21:30:24Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image-el8/2125341301309181952"
+    },
+    {
+      "id": "2125337547755229184",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-24T21:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125337547755229184"
+    },
+    {
+      "id": "2125336251430080512",
+      "job": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image",
+      "brief_name": "periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image",
+      "cluster": "build05",
+      "timestamp": "2026-11-24T21:10:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-service-release-ocm-2.12-mirror-nightly-image/2125336251430080512"
+    },
+    {
+      "id": "2125333850547556352",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-single-node-bm",
+      "brief_name": "telco5g-network-flow-matrix-single-node-bm",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T21:00:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-single-node-bm/2125333850547556352"
+    },
+    {
+      "id": "2125333848865640448",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-bm",
+      "brief_name": "telco5g-network-flow-matrix-bm",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T21:00:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-telco5g-network-flow-matrix-bm/2125333848865640448"
+    },
+    {
+      "id": "2125333846374223872",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-metal-ovn-network-flow-matrix-bm",
+      "brief_name": "metal-ovn-network-flow-matrix-bm",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T21:00:32Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-metal-ovn-network-flow-matrix-bm/2125333846374223872"
+    },
+    {
+      "id": "2125333844683919360",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix-single-node",
+      "brief_name": "aws-ovn-network-flow-matrix-single-node",
+      "cluster": "build03",
+      "timestamp": "2026-11-24T21:00:31Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix-single-node/2125333844683919360"
+    },
+    {
+      "id": "2125333842997809152",
+      "job": "periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix",
+      "brief_name": "aws-ovn-network-flow-matrix",
+      "cluster": "build03",
+      "timestamp": "2026-11-24T21:00:31Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 5,
+      "failed_test_names": [
+        "[bz-Management Console] clusteroperator/console should not change condition/Available",
+        "[sig-sippy] openshift-tests should work",
+        "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+        "[bz-Routing] clusteroperator/ingress should not change condition/Available",
+        "Run multi-stage step openshift-e2e-test"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.17-aws-ovn-network-flow-matrix/2125333842997809152"
+    },
+    {
+      "id": "2125329970745053184",
+      "job": "periodic-ci-openshift-assisted-test-infra-release-ocm-2.12-e2e-metal-assisted-ha-kube-api-ipv6-4-17-periodic",
+      "brief_name": "periodic-ci-openshift-assisted-test-infra-release-ocm-2.12-e2e-metal-assisted-ha-kube-api-ipv6-4-17-periodic",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T20:45:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-test-infra-release-ocm-2.12-e2e-metal-assisted-ha-kube-api-ipv6-4-17-periodic/2125329970745053184"
+    },
+    {
+      "id": "2125323127251537920",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "brief_name": "upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade",
+      "cluster": "build04",
+      "timestamp": "2026-11-24T20:18:14Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] pods should successfully create sandboxes by other"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-upgrade-from-stable-4.16-e2e-gcp-ovn-rt-upgrade/2125323127251537920"
+    },
+    {
+      "id": "2125322430858661888",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-24T20:15:25Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125322430858661888"
+    },
+    {
+      "id": "2125321112756686848",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-24T20:10:14Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax/2125321112756686848"
+    },
+    {
+      "id": "2125318834024878080",
+      "job": "periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade",
+      "brief_name": "e2e-azure-ovn-upgrade",
+      "cluster": "build08",
+      "timestamp": "2026-11-24T20:00:53Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.17-e2e-azure-ovn-upgrade/2125318834024878080"
+    },
+    {
+      "id": "2125318791247171584",
+      "job": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "brief_name": "periodic-ci-openshift-release-tests-main-jira-notificator",
+      "cluster": "build07",
+      "timestamp": "2026-11-24T20:00:34Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-jira-notificator/2125318791247171584"
+    },
+    {
+      "id": "2125318737543303168",
+      "job": "periodic-ci-openshift-assisted-test-infra-release-ocm-2.12-e2e-metal-assisted-ha-kube-api-ipv4-4-17-periodic",
+      "brief_name": "periodic-ci-openshift-assisted-test-infra-release-ocm-2.12-e2e-metal-assisted-ha-kube-api-ipv4-4-17-periodic",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T20:00:30Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-assisted-test-infra-release-ocm-2.12-e2e-metal-assisted-ha-kube-api-ipv4-4-17-periodic/2125318737543303168"
+    },
+    {
+      "id": "2125313087035674624",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T19:38:20Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125313087035674624"
+    },
+    {
+      "id": "2125313007046103040",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T19:38:01Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125313007046103040"
+    },
+    {
+      "id": "2125312921809457152",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T19:37:41Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125312921809457152"
+    },
+    {
+      "id": "2125309575350456320",
+      "job": "periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn",
+      "brief_name": "periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn",
+      "cluster": "build08",
+      "timestamp": "2026-11-24T19:24:23Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-cnv-nightly-4.17-deploy-azure-kubevirt-ovn/2125309575350456320"
+    },
+    {
+      "id": "2125307331271987200",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-24T19:15:24Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step release-qe-tests"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125307331271987200"
+    },
+    {
+      "id": "2125292223292510208",
+      "job": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "brief_name": "periodic-ci-openshift-release-tests-main-qe-release-gate-test",
+      "cluster": "build11",
+      "timestamp": "2026-11-24T18:15:24Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step release-qe-tests"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-tests-main-qe-release-gate-test/2125292223292510208"
+    },
+    {
+      "id": "2125287346046767104",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T17:56:03Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125287346046767104"
+    },
+    {
+      "id": "2125287273070071808",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T17:55:41Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125287273070071808"
+    },
+    {
+      "id": "2125287202400243712",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-24T17:55:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125287202400243712"
+    },
+    {
+      "id": "2125287202370883584",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax",
+      "brief_name": "ocp-e2e-aws-ovn-multi-x-ax",
+      "cluster": "build06",
+      "timestamp": "2026-11-24T17:55:29Z",
+      "overall_result": "F",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 3,
+      "failed_test_names": [
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-auth][Feature:ProjectAPI]  TestProjectWatch should succeed [apigroup:project.openshift.io][apigroup:authorization.openshift.io][apigroup:user.openshift.io] [Suite:openshift/conformance/parallel]",
+        "[sig-sippy] openshift-tests should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-aws-ovn-multi-x-ax/2125287202370883584"
+    },
+    {
+      "id": "2125287202324746240",
+      "job": "periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "brief_name": "ocp-e2e-upgrade-aws-ovn-multi-a-a",
+      "cluster": "build06",
+      "timestamp": "2026-11-24T17:55:29Z",
+      "overall_result": "S",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 0,
+      "failed_test_names": [],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.17-ocp-e2e-upgrade-aws-ovn-multi-a-a/2125287202324746240"
+    },
+    {
+      "id": "2125287176454279168",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T17:55:23Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125287176454279168"
+    },
+    {
+      "id": "2125281456161820672",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T17:32:23Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125281456161820672"
+    },
+    {
+      "id": "2125281325865766912",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T17:31:54Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125281325865766912"
+    },
+    {
+      "id": "2125281200460271616",
+      "job": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "brief_name": "periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim",
+      "cluster": "build10",
+      "timestamp": "2026-11-24T17:17:37Z",
+      "overall_result": "n",
+      "infrastructure_failure": false,
+      "known_failure": false,
+      "test_failures": 1,
+      "failed_test_names": [
+        "[sig-sippy] infrastructure should work"
+      ],
+      "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.17-cvp-fips-common-claim/2125281200460271616"
+    }
+  ],
+  "failure_categories": {
+    "infrastructure": 0,
+    "test_failure": 55,
+    "unknown": 145
+  },
+  "top_failing_tests": [
+    {
+      "name": "[sig-sippy] openshift-tests should work",
+      "count": 36
+    },
+    {
+      "name": "[sig-sippy] infrastructure should work",
+      "count": 36
+    },
+    {
+      "name": "Run multi-stage step openshift-e2e-test",
+      "count": 13
+    },
+    {
+      "name": "install should succeed: overall",
+      "count": 7
+    },
+    {
+      "name": "Run multi-stage step ipi-install-install",
+      "count": 5
+    },
+    {
+      "name": "Run multi-stage step gather-must-gather",
+      "count": 4
+    },
+    {
+      "name": "[sig-network] pods should successfully create sandboxes by other",
+      "count": 4
+    },
+    {
+      "name": "Run multi-stage step release-qe-tests",
+      "count": 4
+    },
+    {
+      "name": "install should succeed: infrastructure",
+      "count": 3
+    },
+    {
+      "name": "install should succeed: configuration",
+      "count": 3
+    },
+    {
+      "name": "Run multi-stage step baremetalds-e2e-test",
+      "count": 3
+    },
+    {
+      "name": "[sig-network] pods should successfully create sandboxes by adding pod to network",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step e2e",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step gather-extra",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step optional-operators-subscribe",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step gather-audit-logs",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step single-node-e2e-test",
+      "count": 2
+    },
+    {
+      "name": "[sig-auth][Feature:ProjectAPI]  TestProjectWatch should succeed [apigroup:project.openshift.io][apigroup:authorization.openshift.io][apigroup:user.openshift.io] [Suite:openshift/conformance/parallel]",
+      "count": 2
+    },
+    {
+      "name": "[sig-network] pods should successfully create sandboxes by writing network status",
+      "count": 2
+    },
+    {
+      "name": "[sig-api-machinery] ValidatingAdmissionPolicy [Privileged:ClusterAdmin] should type check a CRD [Suite:openshift/conformance/parallel] [Suite:k8s]",
+      "count": 2
+    },
+    {
+      "name": "Run multi-stage step ipi-install-install-stableinitial",
+      "count": 1
+    },
+    {
+      "name": "[sig-storage][Feature:DisableStorageClass][Serial][apigroup:operator.openshift.io] should reconcile the StorageClass when StorageClassState is Managed [Suite:openshift/conformance/serial]",
+      "count": 1
+    },
+    {
+      "name": "operator conditions authentication",
+      "count": 1
+    },
+    {
+      "name": "[sig-node] static pods should start after being created",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step gather-azure-cli",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step ipi-conf-azure",
+      "count": 1
+    },
+    {
+      "name": "install should succeed: pre configuration",
+      "count": 1
+    },
+    {
+      "name": "Run multi-stage step ofcir-release",
+      "count": 1
+    },
+    {
+      "name": "[sig-network] can collect host-to-service poller pod logs",
+      "count": 1
+    },
+    {
+      "name": "[sig-network] can collect host-to-host poller pod logs",
+      "count": 1
+    },
+    {
+      "name": "[sig-network] can collect pod-to-service poller pod logs",
+      "count": 1
+    },
+    {
+      "name": "[sig-network] can collect pod-to-host poller pod logs",
+      "count": 1
+    },
+    {
+      "name": "[Jira:\"Network / ovn-kubernetes\"] monitor test pod-network-avalibility setup",
+      "count": 1
+    },
+    {
+      "name": "[sig-api-machinery] disruption/kube-api connection/reused should be available throughout the test",
+      "count": 1
+    },
+    {
+      "name": "[bz-etcd] pathological event should not see excessive RequiredInstallerResourcesMissing secrets",
+      "count": 1
+    },
+    {
+      "name": "[sig-api-machinery] disruption/kube-api connection/new should be available throughout the test",
+      "count": 1
+    },
+    {
+      "name": "[bz-Management Console] clusteroperator/console should not change condition/Available",
+      "count": 1
+    },
+    {
+      "name": "[bz-kube-storage-version-migrator] clusteroperator/kube-storage-version-migrator should not change condition/Available",
+      "count": 1
+    },
+    {
+      "name": "[bz-Routing] clusteroperator/ingress should not change condition/Available",
+      "count": 1
+    }
+  ],
+  "version": "4.17",
+  "last_updated": "2026-11-26T13:05:53.660554+00:00"
+}

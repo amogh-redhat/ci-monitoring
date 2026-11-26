@@ -1,0 +1,69 @@
+{
+  "snapshots": [
+    {
+      "date": "2026-11-26",
+      "versions": {
+        "5.1": {
+          "total_jobs": 1149,
+          "pass_rate": 31.77,
+          "failing_jobs": 754,
+          "infrastructure_failures": 0
+        },
+        "5.0": {
+          "total_jobs": 1114,
+          "pass_rate": 34.83,
+          "failing_jobs": 692,
+          "infrastructure_failures": 0
+        },
+        "4.23": {
+          "total_jobs": 758,
+          "pass_rate": 41.56,
+          "failing_jobs": 432,
+          "infrastructure_failures": 0
+        },
+        "4.22": {
+          "total_jobs": 1058,
+          "pass_rate": 36.58,
+          "failing_jobs": 646,
+          "infrastructure_failures": 0
+        },
+        "4.21": {
+          "total_jobs": 743,
+          "pass_rate": 50.61,
+          "failing_jobs": 352,
+          "infrastructure_failures": 0
+        },
+        "4.20": {
+          "total_jobs": 559,
+          "pass_rate": 39.89,
+          "failing_jobs": 304,
+          "infrastructure_failures": 0
+        },
+        "4.19": {
+          "total_jobs": 465,
+          "pass_rate": 45.81,
+          "failing_jobs": 220,
+          "infrastructure_failures": 0
+        },
+        "4.18": {
+          "total_jobs": 227,
+          "pass_rate": 49.78,
+          "failing_jobs": 98,
+          "infrastructure_failures": 0
+        },
+        "4.17": {
+          "total_jobs": 107,
+          "pass_rate": 37.38,
+          "failing_jobs": 62,
+          "infrastructure_failures": 0
+        },
+        "4.16": {
+          "total_jobs": 148,
+          "pass_rate": 36.49,
+          "failing_jobs": 90,
+          "infrastructure_failures": 0
+        }
+      }
+    }
+  ]
+}

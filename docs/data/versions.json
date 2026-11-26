@@ -1,0 +1,127 @@
+{
+  "last_updated": "2026-11-26T13:05:53.660554+00:00",
+  "versions": [
+    "5.1",
+    "5.0",
+    "4.23",
+    "4.22",
+    "4.21",
+    "4.20",
+    "4.19",
+    "4.18",
+    "4.17",
+    "4.16"
+  ],
+  "summary": {
+    "5.1": {
+      "total_jobs": 1149,
+      "passing_jobs": 365,
+      "failing_jobs": 754,
+      "other_jobs": 30,
+      "pass_rate": 31.77,
+      "avg_duration_minutes": 168.9,
+      "total_runs_current": 7156,
+      "total_runs_previous": 5695,
+      "infrastructure_failures": 0
+    },
+    "5.0": {
+      "total_jobs": 1114,
+      "passing_jobs": 388,
+      "failing_jobs": 692,
+      "other_jobs": 34,
+      "pass_rate": 34.83,
+      "avg_duration_minutes": 174.5,
+      "total_runs_current": 5385,
+      "total_runs_previous": 4141,
+      "infrastructure_failures": 0
+    },
+    "4.23": {
+      "total_jobs": 758,
+      "passing_jobs": 315,
+      "failing_jobs": 432,
+      "other_jobs": 11,
+      "pass_rate": 41.56,
+      "avg_duration_minutes": 188.1,
+      "total_runs_current": 2557,
+      "total_runs_previous": 2514,
+      "infrastructure_failures": 0
+    },
+    "4.22": {
+      "total_jobs": 1058,
+      "passing_jobs": 387,
+      "failing_jobs": 646,
+      "other_jobs": 25,
+      "pass_rate": 36.58,
+      "avg_duration_minutes": 162.3,
+      "total_runs_current": 5337,
+      "total_runs_previous": 5202,
+      "infrastructure_failures": 0
+    },
+    "4.21": {
+      "total_jobs": 743,
+      "passing_jobs": 376,
+      "failing_jobs": 352,
+      "other_jobs": 15,
+      "pass_rate": 50.61,
+      "avg_duration_minutes": 154.2,
+      "total_runs_current": 2658,
+      "total_runs_previous": 2485,
+      "infrastructure_failures": 0
+    },
+    "4.20": {
+      "total_jobs": 559,
+      "passing_jobs": 223,
+      "failing_jobs": 304,
+      "other_jobs": 32,
+      "pass_rate": 39.89,
+      "avg_duration_minutes": 170.1,
+      "total_runs_current": 2271,
+      "total_runs_previous": 2014,
+      "infrastructure_failures": 0
+    },
+    "4.19": {
+      "total_jobs": 465,
+      "passing_jobs": 213,
+      "failing_jobs": 220,
+      "other_jobs": 32,
+      "pass_rate": 45.81,
+      "avg_duration_minutes": 155.2,
+      "total_runs_current": 1317,
+      "total_runs_previous": 1036,
+      "infrastructure_failures": 0
+    },
+    "4.18": {
+      "total_jobs": 227,
+      "passing_jobs": 113,
+      "failing_jobs": 98,
+      "other_jobs": 16,
+      "pass_rate": 49.78,
+      "avg_duration_minutes": 140.3,
+      "total_runs_current": 941,
+      "total_runs_previous": 824,
+      "infrastructure_failures": 0
+    },
+    "4.17": {
+      "total_jobs": 107,
+      "passing_jobs": 40,
+      "failing_jobs": 62,
+      "other_jobs": 5,
+      "pass_rate": 37.38,
+      "avg_duration_minutes": 128.0,
+      "total_runs_current": 676,
+      "total_runs_previous": 537,
+      "infrastructure_failures": 0
+    },
+    "4.16": {
+      "total_jobs": 148,
+      "passing_jobs": 54,
+      "failing_jobs": 90,
+      "other_jobs": 4,
+      "pass_rate": 36.49,
+      "avg_duration_minutes": 158.3,
+      "total_runs_current": 423,
+      "total_runs_previous": 348,
+      "infrastructure_failures": 0
+    }
+  }
+}
