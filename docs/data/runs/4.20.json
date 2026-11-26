@@ -25,9 +25,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
+        "Run multi-stage step hypershift-aws-run-e2e-external",
         "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work",
-        "Run multi-stage step hypershift-aws-run-e2e-external"
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-aws-upgrade/2125922850752696320"
     },
@@ -237,10 +237,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "[sig-network] Services should respect internalTrafficPolicy=Local Pod (hostNetwork: true) to Pod [Suite:openshift/conformance/parallel] [Suite:k8s]",
         "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
         "Run multi-stage step openshift-e2e-libvirt-test",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] Services should respect internalTrafficPolicy=Local Pod (hostNetwork: true) to Pod [Suite:openshift/conformance/parallel] [Suite:k8s]"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-ovn-powervs-capi-multi-p-p/2125847208862420992"
     },
@@ -701,14 +701,14 @@
       "known_failure": false,
       "test_failures": 8,
       "failed_test_names": [
-        "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
-        "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
-        "[bz-DNS] clusteroperator/dns should not change condition/Available",
         "[sig-node] node-lifecycle detects unreachable state on node",
         "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/new should be available throughout the test",
         "[bz-Routing] clusteroperator/ingress should not change condition/Available",
         "[sig-node] node-lifecycle detects unexpected not ready node",
-        "[bz-Management Console] clusteroperator/console should not change condition/Available"
+        "[bz-Management Console] clusteroperator/console should not change condition/Available",
+        "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
+        "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
+        "[bz-DNS] clusteroperator/dns should not change condition/Available"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-hypershift-release-4.20-periodics-e2e-azure-kubevirt-ovn/2125801933728911360"
     },
@@ -1764,10 +1764,10 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "[sig-sippy] infrastructure should work",
+        "[sig-sippy] openshift-tests should work",
         "install should succeed: overall",
         "install should succeed: pre configuration",
-        "[sig-sippy] openshift-tests should work",
+        "[sig-sippy] infrastructure should work",
         "Run multi-stage step ipi-conf-aws-user-min-permissions"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.20-e2e-aws-openshift-platform-compliance-weekly/2125737651058249728"
@@ -1783,9 +1783,9 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
+        "[sig-sippy] infrastructure should work",
         "install should succeed: overall",
         "Run multi-stage step ipi-conf-aws-user-min-permissions",
-        "[sig-sippy] infrastructure should work",
         "install should succeed: pre configuration",
         "[sig-sippy] openshift-tests should work"
       ],
@@ -2067,9 +2067,9 @@
       "test_failures": 4,
       "failed_test_names": [
         "Run multi-stage step openshift-e2e-test",
-        "[sig-sippy] openshift-tests should work",
         "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
-        "[sig-storage] CSI Mock volume fsgroup policies CSI FSGroupPolicy [LinuxOnly] should not modify fsGroup if fsGroupPolicy=None [Suite:openshift/conformance/parallel] [Suite:k8s]"
+        "[sig-storage] CSI Mock volume fsgroup policies CSI FSGroupPolicy [LinuxOnly] should not modify fsGroup if fsGroupPolicy=None [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-azure-ovn-runc/2125731107751071744"
     },
@@ -2178,12 +2178,12 @@
       "known_failure": false,
       "test_failures": 6,
       "failed_test_names": [
-        "[sig-instrumentation] Prometheus [apigroup:image.openshift.io] when installed on the cluster shouldn't report any alerts in firing state apart from Watchdog and AlertmanagerReceiversNotConfigured [Early][apigroup:config.openshift.io] [Skipped:Disconnected] [Suite:openshift/conformance/parallel]",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers",
         "[sig-node][apigroup:config.openshift.io] CPU Partitioning cluster infrastructure should be configured correctly [Suite:openshift/conformance/parallel]",
+        "Run multi-stage step openshift-e2e-test",
         "[sig-sippy] openshift-tests should work",
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers",
         "[sig-arch] events should not repeat pathologically",
-        "Run multi-stage step openshift-e2e-test"
+        "[sig-instrumentation] Prometheus [apigroup:image.openshift.io] when installed on the cluster shouldn't report any alerts in firing state apart from Watchdog and AlertmanagerReceiversNotConfigured [Early][apigroup:config.openshift.io] [Skipped:Disconnected] [Suite:openshift/conformance/parallel]"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-osd-ccs-gcp/2125723306354020352"
     },
@@ -2372,9 +2372,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "Run multi-stage step openshift-e2e-test",
+        "[sig-network-edge][Feature:Idling] Idling with a single service and ReplicationController should idle the service and ReplicationController properly [Suite:openshift/conformance/parallel]",
         "[sig-sippy] openshift-tests should work",
-        "[sig-network-edge][Feature:Idling] Idling with a single service and ReplicationController should idle the service and ReplicationController properly [Suite:openshift/conformance/parallel]"
+        "Run multi-stage step openshift-e2e-test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.20-e2e-azure-ovn-multidisk-techpreview/2125714265636605952"
     },
@@ -2443,26 +2443,26 @@
       "known_failure": false,
       "test_failures": 20,
       "failed_test_names": [
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-host poller pod logs",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-host poller pod logs",
         "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-pod poller pod logs",
         "[sig-arch] events should not repeat pathologically for ns/openshift-ingress",
         "[sig-arch] events should not repeat pathologically",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
         "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-service poller pod logs",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-service poller pod logs",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-pod poller pod logs",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-image-registry",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-cluster-csi-drivers",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-insights",
-        "[Jira:\"Network / ovn-kubernetes\"] monitor test pod-network-avalibility collection",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
-        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-host poller pod logs",
-        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-monitoring",
-        "Run multi-stage step openshift-e2e-test",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-image-registry",
         "[sig-sippy] openshift-tests should work",
-        "[sig-architecture] platform pods in ns/openshift-cluster-csi-drivers should not exit an excessive amount of times",
-        "[sig-arch] events should not repeat pathologically for ns/openshift-dns"
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-service poller pod logs",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-insights",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-monitoring",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-image-registry",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-cluster-csi-drivers",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-monitoring",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=host-to-host poller pod logs",
+        "[Jira:\"Network / ovn-kubernetes\"] monitor test pod-network-avalibility collection",
+        "[sig-arch] events should not repeat pathologically for ns/openshift-dns",
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-cluster-csi-drivers",
+        "[sig-cluster-lifecycle] pathological event should not see excessive Back-off restarting failed containers for ns/openshift-image-registry",
+        "[sig-network] can collect network.openshift.io/disruption-actor=poller,network.openshift.io/disruption-target=pod-to-pod poller pod logs",
+        "[sig-architecture] platform pods in ns/openshift-cluster-csi-drivers should not exit an excessive amount of times"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-upgrade-gcp-ovn-multi-a-a/2125712513340280832"
     },
@@ -2477,19 +2477,19 @@
       "known_failure": false,
       "test_failures": 13,
       "failed_test_names": [
-        "operator conditions image-registry",
-        "operator conditions console",
         "operator conditions monitoring",
         "Run multi-stage step ipi-install-install-stableinitial",
         "operator conditions cluster-autoscaler",
+        "operator conditions console",
         "[sig-sippy] infrastructure should work",
         "[sig-sippy] openshift-tests should work",
-        "install should succeed: overall",
-        "operator conditions network",
-        "operator conditions authentication",
-        "operator conditions ingress",
+        "operator conditions image-registry",
+        "operator conditions machine-api",
         "install should succeed: cluster creation",
-        "operator conditions machine-api"
+        "operator conditions ingress",
+        "operator conditions authentication",
+        "operator conditions network",
+        "install should succeed: overall"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-upgrade-azure-ovn-multi-x-ax/2125712510811115520"
     },
@@ -2504,10 +2504,10 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step openshift-e2e-test",
-        "Run multi-stage step gather-extra",
         "[sig-api-machinery] disruption/openshift-api apiserver/openshift-apiserver connection/reused should be available throughout the test",
+        "Run multi-stage step gather-extra",
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-sippy] openshift-tests should work",
         "[sig-api-machinery] disruption/kube-api apiserver/kube-apiserver connection/reused should be available throughout the test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-upgrade-aws-ovn-multi-x-x/2125712508298727424"
@@ -2549,10 +2549,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "operator conditions etcd",
         "[sig-sippy] openshift-tests should work",
-        "operator conditions control-plane-machine-set",
-        "Run multi-stage step multiarch-migration-machine-type"
+        "operator conditions etcd",
+        "Run multi-stage step multiarch-migration-machine-type",
+        "operator conditions control-plane-machine-set"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-gcp-ovn-multi-x-x-to-a-x/2125712500736397312"
     },
@@ -2567,8 +2567,8 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "Run multi-stage step openshift-e2e-test",
         "[sig-storage] CSI Mock volume expansion Expansion with recovery [Feature:RecoverVolumeExpansionFailure] [FeatureGate:RecoverVolumeExpansionFailure] [Beta] should allow recovery if controller expansion fails with infeasible error [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "Run multi-stage step openshift-e2e-test",
         "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-gcp-ovn-multi-a-a-to-x-a/2125712496575647744"
@@ -2649,9 +2649,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
         "[sig-network] LoadBalancers [Feature:LoadBalancer] should be able to preserve UDP traffic when server pod cycles for a LoadBalancer service on different nodes [Suite:openshift/conformance/parallel] [Suite:k8s]",
-        "Run multi-stage step openshift-e2e-test",
-        "[sig-sippy] openshift-tests should work"
+        "Run multi-stage step openshift-e2e-test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-upgrade-from-stable-4.19-ocp-e2e-upgrade-gcp-ovn-multi-a-a/2125712019691671552"
     },
@@ -2718,9 +2718,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-network] pods should successfully create sandboxes by other",
         "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step openshift-e2e-test"
+        "Run multi-stage step openshift-e2e-test",
+        "[sig-network] pods should successfully create sandboxes by other"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-upgrade-from-nightly-4.19-ocp-e2e-upgrade-azure-ovn-multi-a-a/2125712006953570304"
     },
@@ -2774,9 +2774,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]",
+        "[sig-sippy] openshift-tests should work",
         "Run multi-stage step openshift-e2e-test",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-network] Conntrack proxy implementation should not be vulnerable to the invalid conntrack state bug [Privileged] [Suite:openshift/conformance/parallel] [Suite:k8s]"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.20-ocp-e2e-azure-ovn-multi-a-a/2125711997713518592"
     },
@@ -2965,18 +2965,6 @@
       "count": 1
     },
     {
-      "name": "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
-      "count": 1
-    },
-    {
-      "name": "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
-      "count": 1
-    },
-    {
-      "name": "[bz-DNS] clusteroperator/dns should not change condition/Available",
-      "count": 1
-    },
-    {
       "name": "[sig-node] node-lifecycle detects unreachable state on node",
       "count": 1
     },
@@ -2994,6 +2982,18 @@
     },
     {
       "name": "[bz-Management Console] clusteroperator/console should not change condition/Available",
+      "count": 1
+    },
+    {
+      "name": "[bz-Node Tuning Operator] clusteroperator/node-tuning should not change condition/Available",
+      "count": 1
+    },
+    {
+      "name": "[sig-network-edge] ns/openshift-console route/console disruption/ingress-to-console connection/reused should be available throughout the test",
+      "count": 1
+    },
+    {
+      "name": "[bz-DNS] clusteroperator/dns should not change condition/Available",
       "count": 1
     },
     {
@@ -3054,5 +3054,5 @@
     }
   ],
   "version": "4.20",
-  "last_updated": "2026-11-26T13:27:36.823402+00:00"
+  "last_updated": "2026-11-26T13:30:44.367668+00:00"
 }

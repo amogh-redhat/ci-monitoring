@@ -1171,16 +1171,16 @@
       "known_failure": false,
       "test_failures": 10,
       "failed_test_names": [
-        "Run multi-stage step gather-audit-logs",
-        "Run multi-stage step gather-must-gather",
-        "[sig-sippy] infrastructure should work",
         "Run multi-stage step gather-core-dump",
         "Run multi-stage step gather-network",
+        "[sig-sippy] openshift-tests should work",
         "install should succeed: overall",
         "Run multi-stage step gather-azure-cli",
+        "Run multi-stage step gather-audit-logs",
         "install should succeed: infrastructure",
-        "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step ipi-install-install-stableinitial"
+        "Run multi-stage step ipi-install-install-stableinitial",
+        "Run multi-stage step gather-must-gather",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.18-e2e-azure-cgroupsv1-upgrade/2125747969167724544"
     },
@@ -1266,11 +1266,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
+        "install should succeed: pre configuration",
         "Run multi-stage step ipi-conf-aws-user-min-permissions",
         "[sig-sippy] infrastructure should work",
-        "install should succeed: overall",
-        "[sig-sippy] openshift-tests should work",
-        "install should succeed: pre configuration"
+        "install should succeed: overall"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-ComplianceAsCode-content-master-4.18-e2e-aws-openshift-node-compliance-weekly/2125737650861117440"
     },
@@ -1298,8 +1298,8 @@
       "known_failure": false,
       "test_failures": 2,
       "failed_test_names": [
-        "Run multi-stage step e2e-test",
-        "[sig-sippy] openshift-tests should work"
+        "[sig-sippy] openshift-tests should work",
+        "Run multi-stage step e2e-test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.18-console-aws/2125730855962808320"
     },
@@ -1410,19 +1410,19 @@
       "known_failure": false,
       "test_failures": 13,
       "failed_test_names": [
+        "operator conditions image-registry",
+        "operator conditions console",
         "operator conditions monitoring",
-        "operator conditions cluster-autoscaler",
-        "operator conditions machine-api",
-        "operator conditions authentication",
         "operator conditions ingress",
-        "[sig-sippy] infrastructure should work",
+        "operator conditions authentication",
+        "operator conditions machine-api",
         "Run multi-stage step ipi-install-install-stableinitial",
         "install should succeed: overall",
         "[sig-sippy] openshift-tests should work",
-        "operator conditions network",
+        "operator conditions cluster-autoscaler",
+        "[sig-sippy] infrastructure should work",
         "install should succeed: cluster creation",
-        "operator conditions image-registry",
-        "operator conditions console"
+        "operator conditions network"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.18-upgrade-from-stable-4.17-ocp-e2e-upgrade-gcp-ovn-multi-x-ax/2125712485066477568"
     },
@@ -1437,13 +1437,13 @@
       "known_failure": false,
       "test_failures": 7,
       "failed_test_names": [
-        "install should succeed: overall",
-        "install should succeed: cluster creation",
-        "operator conditions cluster-autoscaler",
+        "operator conditions machine-api",
+        "[sig-sippy] infrastructure should work",
         "Run multi-stage step ipi-install-install-stableinitial",
         "[sig-sippy] openshift-tests should work",
-        "operator conditions machine-api",
-        "[sig-sippy] infrastructure should work"
+        "operator conditions cluster-autoscaler",
+        "install should succeed: overall",
+        "install should succeed: cluster creation"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.18-upgrade-from-stable-4.17-ocp-e2e-upgrade-azure-ovn-multi-x-ax/2125712485020340224"
     },
@@ -1471,15 +1471,15 @@
       "known_failure": false,
       "test_failures": 9,
       "failed_test_names": [
+        "[sig-network] can collect pod-to-pod poller pod logs",
         "[sig-network] can collect pod-to-host poller pod logs",
         "Run multi-stage step openshift-e2e-test",
         "[sig-network] can collect host-to-service poller pod logs",
-        "[sig-sippy] openshift-tests should work",
-        "[sig-network] can collect pod-to-service poller pod logs",
-        "[sig-network] can collect pod-to-pod poller pod logs",
-        "[sig-network] can collect host-to-host poller pod logs",
+        "[sig-network] can collect host-to-pod poller pod logs",
         "[Jira:\"Network / ovn-kubernetes\"] monitor test pod-network-avalibility setup",
-        "[sig-network] can collect host-to-pod poller pod logs"
+        "[sig-network] can collect host-to-host poller pod logs",
+        "[sig-sippy] openshift-tests should work",
+        "[sig-network] can collect pod-to-service poller pod logs"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-multiarch-main-nightly-4.18-upgrade-from-stable-4.17-ocp-e2e-upgrade-gcp-ovn-multi-a-a/2125711981515116544"
     },
@@ -1572,9 +1572,9 @@
       "known_failure": false,
       "test_failures": 3,
       "failed_test_names": [
-        "[sig-sippy] infrastructure should work",
         "[sig-sippy] openshift-tests should work",
-        "Run multi-stage step gather-extra"
+        "Run multi-stage step gather-extra",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-redhat-openshift-ecosystem-cvp-ocp-4.18-cvp-fips-common-claim/2125704462726074368"
     },
@@ -1680,10 +1680,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "Run multi-stage step single-node-e2e-test",
-        "[sig-node] static pods should start after being created",
+        "[sig-arch][Early] Managed cluster should [apigroup:config.openshift.io] start all core operators [Skipped:Disconnected] [Suite:openshift/conformance/parallel]",
         "[sig-sippy] openshift-tests should work",
-        "[sig-arch][Early] Managed cluster should [apigroup:config.openshift.io] start all core operators [Skipped:Disconnected] [Suite:openshift/conformance/parallel]"
+        "[sig-node] static pods should start after being created",
+        "Run multi-stage step single-node-e2e-test"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.18-e2e-aws-ovn-single-node-workers-serial/2125682537152909312"
     },
@@ -1794,8 +1794,8 @@
       "test_failures": 3,
       "failed_test_names": [
         "[sig-sippy] openshift-tests should work",
-        "[sig-sippy] infrastructure should work",
-        "Run multi-stage step network-flow-matrix-tests"
+        "Run multi-stage step network-flow-matrix-tests",
+        "[sig-sippy] infrastructure should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.18-telco5g-network-flow-matrix-single-node-bm/2125666023024627712"
     },
@@ -1849,10 +1849,10 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
-        "[sig-sippy] openshift-tests should work",
         "[sig-node] static pods should start after being created",
         "Run multi-stage step single-node-e2e-test",
-        "[sig-node] static pods should start after being created"
+        "[sig-node] static pods should start after being created",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.18-e2e-aws-upgrade-ovn-single-node/2125656018393239552"
     },
@@ -2375,9 +2375,9 @@
       "known_failure": false,
       "test_failures": 4,
       "failed_test_names": [
+        "[sig-sippy] openshift-tests should work",
         "[sig-node] static pods should start after being created",
         "Run multi-stage step single-node-e2e-test",
-        "[sig-sippy] openshift-tests should work",
         "[sig-node] static pods should start after being created"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-ci-4.18-e2e-aws-upgrade-ovn-single-node/2125625497592270848"
@@ -2476,11 +2476,11 @@
       "known_failure": false,
       "test_failures": 5,
       "failed_test_names": [
-        "install should succeed: overall",
-        "[sig-sippy] openshift-tests should work",
-        "install should succeed: configuration",
         "Run multi-stage step ipi-install-install-stableinitial",
-        "[sig-sippy] infrastructure should work"
+        "[sig-sippy] infrastructure should work",
+        "install should succeed: configuration",
+        "install should succeed: overall",
+        "[sig-sippy] openshift-tests should work"
       ],
       "url": "https://prow.ci.openshift.org/view/gs/test-platform-results-public/logs/periodic-ci-openshift-release-main-nightly-4.18-upgrade-from-stable-4.17-e2e-vsphere-zones-upgrade/2125619139908210688"
     },
@@ -2981,6 +2981,10 @@
       "count": 1
     },
     {
+      "name": "[sig-network] can collect pod-to-pod poller pod logs",
+      "count": 1
+    },
+    {
       "name": "[sig-network] can collect pod-to-host poller pod logs",
       "count": 1
     },
@@ -2989,15 +2993,7 @@
       "count": 1
     },
     {
-      "name": "[sig-network] can collect pod-to-service poller pod logs",
-      "count": 1
-    },
-    {
-      "name": "[sig-network] can collect pod-to-pod poller pod logs",
-      "count": 1
-    },
-    {
-      "name": "[sig-network] can collect host-to-host poller pod logs",
+      "name": "[sig-network] can collect host-to-pod poller pod logs",
       "count": 1
     },
     {
@@ -3005,7 +3001,11 @@
       "count": 1
     },
     {
-      "name": "[sig-network] can collect host-to-pod poller pod logs",
+      "name": "[sig-network] can collect host-to-host poller pod logs",
+      "count": 1
+    },
+    {
+      "name": "[sig-network] can collect pod-to-service poller pod logs",
       "count": 1
     },
     {
@@ -3018,5 +3018,5 @@
     }
   ],
   "version": "4.18",
-  "last_updated": "2026-11-26T13:27:36.823402+00:00"
+  "last_updated": "2026-11-26T13:30:44.367668+00:00"
 }
